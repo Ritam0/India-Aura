@@ -1,17 +1,17 @@
 import { Schema, model } from "mongoose";
 
 const blogSchema=new Schema({
-    Name:{
+    name:{
+        type:'String', 
+        required:true
+        
+    },
+    place:{
         type:'String',
         required:true
         
     },
-    Place:{
-        type:'String',
-        required:true
-        
-    },
-    Content:{
+    content:{
         type:'String',
         required:true
         
