@@ -63,7 +63,7 @@ import AppError from "../utils/error.util.js";
 //........................Get Blog.........................//
 const all_blogs=async (req,res)=>{
     try{
-        const blogs=await Blog.findOne({});
+        const blogs=await Blog.find({});
         console.log(blogs);
         res.status(200).json({
             succes:true,
