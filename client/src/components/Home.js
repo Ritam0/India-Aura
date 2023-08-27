@@ -5,7 +5,6 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import './Home.css';
 import tour_home from "./image/home_tour.png"
-import Andaman from "./image/andaman/Andaman1.jpeg"
 import { useState,useEffect } from 'react';
 
 const Home = () => {
