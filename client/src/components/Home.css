@@ -182,22 +182,18 @@
       gap: 20px;
     }
   }
-  @keyframes fadeInOut {
+  @keyframes fadeIn {
     0% {
         opacity: 0;
         transform: translateY(-10px);
     }
-    50% {
+    100% {
         opacity: 1;
         transform: translateY(0);
-    }
-    100% {
-        opacity: 0;
-        transform: translateY(10px);
     }
 }
 
 #home_heading span {
     display: inline-block;
-    animation: fadeInOut 3s ease-in-out infinite;
+    animation: fadeIn 5s ease-in ;
 }
