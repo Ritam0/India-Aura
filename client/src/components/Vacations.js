@@ -8,26 +8,26 @@ const tourismSpots = [
   {
     id: 1,
     name: 'Mountain-Tops',
-    description: 'unpack opportunities – thats the rhythm of a business tour.',
+    description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
     imageUrl: 'https://i.pinimg.com/564x/83/64/40/836440f5a61124dc869d8a90c868ddf7.jpg',
   },
   {
     id: 2,
     name: 'Beaches',
     description: 'The temple is a place where prayers turn into miracles',
-    imageUrl: 'https://i.pinimg.com/564x/3a/13/68/3a13681ec70b40d88953c058c227909a.jpg',
+    imageUrl: 'https://i.pinimg.com/564x/e7/04/56/e7045643b35fba6754bf68e0dcae3bb0.jpg',
   },
   {
     id: 1,
     name: 'Outdoor-Attractions',
     description: 'Life is peaceful when you are surround by the forests',
-    imageUrl: 'https://i.pinimg.com/564x/16/16/f8/1616f8cd581e09aebdaddabdefdb8f6d.jpg',
+    imageUrl: 'https://i.pinimg.com/564x/1a/af/c4/1aafc4a4a11c75993dd2c3e7d6c56aef.jpg',
   },
   {
     id: 2,
     name: 'Historical-Places',
     description: 'India has a rich biodiversity; spend a holiday in India!',
-    imageUrl:'https://i.pinimg.com/564x/a6/74/f4/a674f407d8af1d8987e6599c0e51d5bc.jpg',
+    imageUrl:'https://i.pinimg.com/564x/ee/29/7e/ee297eb6a40e02cfa4fdd3c9ae847af4.jpg',
   },
 ];
 
