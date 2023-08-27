@@ -111,7 +111,7 @@ const MyProfile = () => {
       <div className="booking-card">
         <img src="https://i.pinimg.com/564x/60/44/71/604471ed304322decb60d7c52b4632a3.jpg" alt="Write Blog" />
         <h2>Write Blog</h2>
-        <a href={BlogUpload}><button>Start Writing</button></a>
+        <a href="/uploadblog"><button>Start Writing</button></a>
       </div>
       <div className="booking-card">
         <img src="https://i.pinimg.com/564x/54/57/24/545724f929914db48a3d1964f983f755.jpg" alt="Tour Package" />

@@ -71,14 +71,14 @@
     height: 3rem;
     padding: 0 20px;
     border-radius: 1.5rem;
-    background: #3d3a4e;
+    background:rgb(13, 143, 13);
     background-size: 400%;
     color: #fff;
     border: none;
     cursor: pointer;
     font-size: 15px;
     margin: 5px;
-    box-shadow: 0 0 3px 3px rgb(187, 70, 255);
+    box-shadow: 0 0 3px 3px rgb(12, 168, 12);
 }
 
 .button:hover::before {
@@ -105,8 +105,8 @@
     height: inherit;
     border-radius: inherit;
     background: linear-gradient(82.3deg,
-            rgba(150, 93, 233, 1) 10.8%,
-            rgba(99, 88, 238, 1) 94.3%);
+            rgb(244, 164, 43) 10.8%,
+            rgb(221, 148, 39) 94.3%);
     transition: all 0.475s;
 }
 
