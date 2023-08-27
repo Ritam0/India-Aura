@@ -11,7 +11,7 @@ const WriteBlog = ({type}) => {
   const [place, setPlace] = useState('');
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
-  const [thumbnail, setThumbnail] = useState('');
+  const [thumbnail, setThumbnail] = useState('https://i.pinimg.com/564x/0b/59/22/0b5922b901383400d62cb2fc33a658f1.jpg');
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -79,10 +79,10 @@ const WriteBlog = ({type}) => {
                 <span className="reg_input-border reg_input-border-alt"></span>
               </div>
               <div className="form-control">
-                <input className="reg_input reg_input-alt" placeholder="content" type='content' value={content} onChange={(e) => setContent(e.target.value)} required />
+                <textarea className="reg_input reg_input-alt" placeholder="content" type='content' value={content} onChange={(e) => setContent(e.target.value)} required />
                 <span className="reg_input-border reg_input-border-alt"></span>
               </div>
-              {imageUploaded ? (
+              {/* {imageUploaded ? (
                 <div id='img_success'>
                   <p>Thumbnail Upload Successful</p>
                 </div>
@@ -104,7 +104,7 @@ const WriteBlog = ({type}) => {
                   />
                 </div>
 
-              )}
+              )} */}
 
               <button className="button" type="submit" >
                 <span className="button-content">Upload Blog</span>

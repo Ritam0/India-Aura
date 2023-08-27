@@ -10,8 +10,8 @@ import LoginForm from './components/Login';
 import MyProfile from './components/MyProfile';
 import FeedbackForm from './components/Feedback';
 import CustomerRegistration from './components/Customer';
-import WriteBlog from './components/WriteBlog';
-import ReadBlog from './components/ReadBlog';
+import WriteBlog from './components/WriteBlog.js';
+import ReadBlog from './components/ReadBlog.js';
 import Cultural_page from './components/Cultural';
 // import Services from './components/Services';
 
@@ -30,6 +30,7 @@ const App = () => {
           <Route path="/Feedback" element={<FeedbackForm />} className="FeedbackForm" />
           <Route path="/list-service" element={<CustomerRegistration/>} className="FeedbackForm" />
           <Route path="/blog" element={<ReadBlog/>} className="ReadBlog" /> 
+          <Route path="/uploadblog" element={<WriteBlog/>} className="WriteBlog" /> 
           <Route path="/Cultural.js" element={<Cultural_page/>} className="ReadBlog" /> 
         </Routes>
     </>
