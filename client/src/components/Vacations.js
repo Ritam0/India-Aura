@@ -9,7 +9,7 @@ const tourismSpots = [
     id: 1,
     name: 'Mountain-Tops',
     description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
-    imageUrl: 'https://i.pinimg.com/564x/83/64/40/836440f5a61124dc869d8a90c868ddf7.jpg',
+    imageUrl: 'https://i.pinimg.com/564x/1f/c2/52/1fc252a644755e2f6dbe458d0478ee1c.jpg',
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const tourismSpots = [
     id: 2,
     name: 'Historical-Places',
     description: 'India has a rich biodiversity; spend a holiday in India!',
-    imageUrl:'https://i.pinimg.com/564x/ee/29/7e/ee297eb6a40e02cfa4fdd3c9ae847af4.jpg',
+    imageUrl:'https://i.pinimg.com/564x/86/20/31/8620312709482d873085a6e7829c2b6c.jpg',
   },
 ];
 
