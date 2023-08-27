@@ -29,6 +29,30 @@ const tourismSpots = [
     description: 'India has a rich biodiversity; spend a holiday in India!',
     imageUrl:'https://i.pinimg.com/564x/a6/74/f4/a674f407d8af1d8987e6599c0e51d5bc.jpg',
   },
+  {
+    id: 1,
+    name: 'Puri',
+    description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
+    imageUrl: 'https://i.pinimg.com/564x/83/64/40/836440f5a61124dc869d8a90c868ddf7.jpg',
+  },
+  {
+    id: 2,
+    name: 'Tirupathi',
+    description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
+    imageUrl: 'https://i.pinimg.com/564x/83/64/40/836440f5a61124dc869d8a90c868ddf7.jpg',
+  },
+  {
+    id: 1,
+    name: 'Kamakhya',
+    description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
+    imageUrl: 'https://i.pinimg.com/564x/83/64/40/836440f5a61124dc869d8a90c868ddf7.jpg',
+  },
+  {
+    id: 2,
+    name: 'Venaras',
+    description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
+    imageUrl: 'https://i.pinimg.com/564x/83/64/40/836440f5a61124dc869d8a90c868ddf7.jpg',
+  },
 ];
 
 const Cultural_page = () => {
@@ -37,19 +61,16 @@ const Cultural_page = () => {
   return (
     <>
       <Navbar />
-      <div className="tourism-page-container">
+      <div className="Cultural-page-container">
         <h1>Incredible India</h1>
-          <div className="cardDisplay">
+          <div className="CulturalDisplay">
           {tourismSpots.map((spot) => (
-            <div key={spot.id} class="card">
-              <div class="card2">
-              <div className="spot-content">
-                <h2 className="spot-heading">{spot.name}</h2>
-                <p className="spot-description">{spot.description}</p>
-                <img className="spot-image" src={spot.imageUrl} alt={spot.name} />
-                <NavLink to={`/tourism/${spot.id}`} className="btn">
-                  View Details
-                </NavLink>
+            <div key={spot.id} class="Cultural">
+              <div class="Cultural2">
+              <div className="Cultural-content">
+                <h2 className="Cultural-heading">{spot.name}</h2>
+                <p className="Cultural-description">{spot.description}</p>
+                <img className="sCultural-image" src={spot.imageUrl} alt={spot.name} />
               </div>
               </div>
             </div>
