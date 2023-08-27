@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import React, { useState } from 'react';
-import digicureicon from "./image/digicureicon.png";
+import indiaauralogo from "./image/Indiaaura-logo.png";
 import './Navbar.css';
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
   // }
   const handleToggleClick = () => {
     setUlVisible(!ulVisible);
-  } ;
+  };
   
   
   return (
@@ -25,8 +25,7 @@ const Navbar = () => {
 
 
           <NavLink className="nav-link" to="/" >
-
-            <img src={digicureicon} className="navbar-brand"></img>
+            <img src={indiaauralogo} className="navbar-brand"></img>
           </NavLink>
 
           <div className="tglbtn">
@@ -42,7 +41,10 @@ const Navbar = () => {
         <ul id='navuls' style={{ height: ulVisible ? '' : '170px' }}>
           <li><NavLink className="nav-link" to="/">Home</NavLink></li>
           <li>
-          <NavLink className="nav-link" to="/doctors">Our Doctors</NavLink>
+          <NavLink className="nav-link" to="/doctors">Dream Tour</NavLink>
+          </li>
+          <li>
+          <NavLink className="nav-link" to="/blog">Blog</NavLink>
           </li>
           <li><NavLink className="nav-link" to="/About">About Us</NavLink></li>
           <li><NavLink className="nav-link" to="/Registration">Register</NavLink></li>
