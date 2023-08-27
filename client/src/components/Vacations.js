@@ -8,26 +8,26 @@ const tourismSpots = [
   {
     id: 1,
     name: 'Mountain-Tops',
-    description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
+    description: 'At the summit, where the world feels small and dreams expand.',
     imageUrl: 'https://i.pinimg.com/564x/1f/c2/52/1fc252a644755e2f6dbe458d0478ee1c.jpg',
   },
   {
     id: 2,
     link:'./Beach.js',
     name: 'Beaches',
-    description: 'The temple is a place where prayers turn into miracles',
+    description: "Where land meets the endless horizon: Beaches' infinite embrace.",
     imageUrl: 'https://i.pinimg.com/564x/e7/04/56/e7045643b35fba6754bf68e0dcae3bb0.jpg',
   },
   {
     id: 1,
     name: 'Outdoor-Attractions',
-    description: 'Life is peaceful when you are surround by the forests',
+    description: 'Outdoor attractions: Where exploration is the path to discovery.',
     imageUrl: 'https://i.pinimg.com/564x/1a/af/c4/1aafc4a4a11c75993dd2c3e7d6c56aef.jpg',
   },
   {
     id: 2,
     name: 'Historical-Places',
-    description: 'India has a rich biodiversity; spend a holiday in India!',
+    description: "Stepping stones to yesteryears: Historical places' timeless corridors.",
     imageUrl:'https://i.pinimg.com/564x/86/20/31/8620312709482d873085a6e7829c2b6c.jpg',
   },
 ];

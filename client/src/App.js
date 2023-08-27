@@ -12,8 +12,6 @@ import ReadBlog from './components/ReadBlog.js';
 import Cultural_page from './components/Cultural';
 import Vacation_page from './components/Vacations';
 import Wildlife from './components/Wildlife';
-import BeachPage from './components/Beach';
-
 
 const App = () => {
   return (
@@ -31,7 +29,6 @@ const App = () => {
           <Route path="/Cultural.js" element={<Cultural_page/>} className="Cultural" /> 
           <Route path="/Vacations.js" element={<Vacation_page/>} className="Vacation" /> 
           <Route path="/Wildlife" element={<Wildlife/>} className="Wildlife" /> 
-          <Route path="/Beach.js" element={<BeachPage/>} className="Beach" /> 
         </Routes>
     </>
   );
