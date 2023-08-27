@@ -16,7 +16,7 @@ userRoutes.get('/logout',logout);
 userRoutes.get('/profile',profile);
 userRoutes.post('/reset',forgotPassword);
 userRoutes.post('/reset/:resetToken', resetPassword);
-userRoutes.post('/upload-blog', upload_blog);
+userRoutes.post('/upload-blog',upload.single("thumbnail"), upload_blog);
 userRoutes.get('/read-blog', all_blogs);
 
 export default userRoutes;

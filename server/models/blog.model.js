@@ -6,6 +6,11 @@ const blogSchema=new Schema({
         required:true
         
     },
+    title:{
+        type:'String', 
+        required:true
+        
+    },
     place:{
         type:'String',
         required:true

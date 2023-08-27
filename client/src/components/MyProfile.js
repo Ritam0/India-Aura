@@ -4,6 +4,7 @@ import axios from 'axios';
 import './MyProfile.css';
 import Navbar from './Navbar'
 import { NavLink } from 'react-router-dom';
+import WriteBlog from './WriteBlog.js';
 
 const MyProfile = () => {
   const navigate = useNavigate();
@@ -18,7 +19,7 @@ const MyProfile = () => {
       if (!token) {
         navigate('/login');
       }
-      const response = await axios.get('https://digi-cure-server.onrender.com/profile', {
+      const response = await axios.get('http://localhost:3001/profile', {
         params: {
           mail: mail
         }
@@ -93,8 +94,8 @@ const MyProfile = () => {
               <button className="myproflie_button" onClick={logoutProfile}>
                 <p className="text">logout</p>
               </button>
-              <button className="myproflie_button" onClick={ListService}>
-                <p className="text">Register As Doctor</p>
+              <button className="myproflie_button" onClick={WriteBlog}>
+                <p className="text">Write Blog</p>
               </button>
               <button className="myproflie_button" onClick={Feedback}>
                 <p className="text">Give Feedback</p>

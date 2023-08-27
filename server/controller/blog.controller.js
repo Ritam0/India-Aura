@@ -1,17 +1,18 @@
 import Blog from "../models/blog.model.js";
 import AppError from "../utils/error.util.js";
-
+import cloudinary from 'cloudinary';
 
 //..................upload blog...................//
  const upload_blog=async (req,res,next)=>{
     try{
-        const {name,place,content}=req.body;
-        if(!name || !place || !content){
+        const {name,title,place,content}=req.body;
+        if(!name || !title || !place || !content){
             return next (new AppError('All data is required',400));
         }
         
         const blog=await Blog.create({
             name,
+            title,
             place,
             content,
             thumbnail:{
