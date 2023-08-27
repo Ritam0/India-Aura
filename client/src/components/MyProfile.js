@@ -18,7 +18,7 @@ const MyProfile = () => {
       if (!token) {
         navigate('/login');
       }
-      const response = await axios.get('https://digi-cure-server.onrender.com/profile', {
+      const response = await axios.get('http://localhost:3001/profile', {
         params: {
           mail: mail
         }
@@ -94,7 +94,7 @@ const MyProfile = () => {
                 <p className="text">logout</p>
               </button>
               <button className="myproflie_button" onClick={ListService}>
-                <p className="text">Register As Doctor</p>
+                <p className="text">Take Tour</p>
               </button>
               <button className="myproflie_button" onClick={Feedback}>
                 <p className="text">Give Feedback</p>
