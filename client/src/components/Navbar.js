@@ -24,9 +24,9 @@ const Navbar = () => {
         <div className="mobile">
 
 
-          <NavLink className="nav-link" to="/" >
+          
             <img src={indiaauralogo} className="navbar-brand"></img>
-          </NavLink>
+         
 
           <div className="tglbtn">
             <input type="checkbox" id="checkbox" onClick={handleToggleClick} />
