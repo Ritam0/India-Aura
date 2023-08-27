@@ -13,6 +13,7 @@ import Cultural_page from './components/Cultural';
 import Vacation_page from './components/Vacations';
 import Wildlife from './components/Wildlife';
 import BeachPage from './components/Beach';
+import Incredible_India from './components/Incredible_India';
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="/Vacations.js" element={<Vacation_page/>} className="Vacation" /> 
           <Route path="/Wildlife" element={<Wildlife/>} className="Wildlife" /> 
           <Route path="/Beach.js" element={<BeachPage/>} className="Wildlife" />
+          <Route path="/Incredible_India.js" element={<Incredible_India/>} className="Wildlife" />
         </Routes>
     </>
   );
