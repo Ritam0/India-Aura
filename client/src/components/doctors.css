@@ -29,6 +29,8 @@
   background-color:white;
   border-radius: 10px;
   transition: all .2s;
+  flex-wrap: wrap;
+    justify-content: space-evenly;
  }
  
  .card2:hover {
