@@ -7,81 +7,54 @@ import './doctors.css'; // Make sure to create a CSS file for styling
 const tourismSpots = [
   {
     id: 1,
-    name: 'Golden Gate Bridge',
-    location: 'San Francisco, USA',
-    description: 'Iconic suspension bridge known for its beauty and engineering.',
-    entryFee: 'Free',
-    imageUrl: 'https://example.com/golden-gate-bridge.jpg',
+    name: 'Business Tour',
+    description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
+    imageUrl: 'https://i.pinimg.com/564x/83/64/40/836440f5a61124dc869d8a90c868ddf7.jpg',
   },
   {
     id: 2,
-    name: 'Eiffel Tower',
-    location: 'Paris, France',
-    description: 'Landmark wrought-iron tower with an observation deck for stunning city views.',
-    entryFee: 'Varies',
-    imageUrl: 'https://example.com/eiffel-tower.jpg',
+    name: 'Cultural Tour',
+    description: 'The temple is a place where prayers turn into miracles',
+    imageUrl: 'https://i.pinimg.com/564x/3a/13/68/3a13681ec70b40d88953c058c227909a.jpg',
   },
   {
     id: 1,
-    name: 'Golden Gate Bridge',
-    location: 'San Francisco, USA',
-    description: 'Iconic suspension bridge known for its beauty and engineering.',
-    entryFee: 'Free',
-    imageUrl: 'https://example.com/golden-gate-bridge.jpg',
+    name: 'Wildlife Tour',
+    description: 'Life is peaceful when you are surround by the forests',
+    imageUrl: 'https://i.pinimg.com/564x/16/16/f8/1616f8cd581e09aebdaddabdefdb8f6d.jpg',
   },
   {
-    id: 1,
-    name: 'Golden Gate Bridge',
-    location: 'San Francisco, USA',
-    description: 'Iconic suspension bridge known for its beauty and engineering.',
-    entryFee: 'Free',
-    imageUrl: 'https://example.com/golden-gate-bridge.jpg',
+    id: 2,
+    name: 'Vacation',
+    description: 'India has a rich biodiversity; spend a holiday in India!',
+    imageUrl:'https://i.pinimg.com/564x/a6/74/f4/a674f407d8af1d8987e6599c0e51d5bc.jpg',
   },
-  // Add more tourism spots here
 ];
 
 const TourismPage = () => {
   const [selectedSpot, setSelectedSpot] = useState(null);
 
-  const handleOpenModal = (spot) => {
-    setSelectedSpot(spot);
-  };
-
-  const handleCloseModal = () => {
-    setSelectedSpot(null);
-  };
-
   return (
     <>
       <Navbar />
       <div className="tourism-page-container">
-        <h1>Tourism Spots</h1>
+        <h1>Incredible India</h1>
           <div className="cardDisplay">
           {tourismSpots.map((spot) => (
             <div key={spot.id} class="card">
               <div class="card2">
+              <div className="spot-content">
+                <h2 className="spot-heading">{spot.name}</h2>
+                <p className="spot-description">{spot.description}</p>
+                <img className="spot-image" src={spot.imageUrl} alt={spot.name} />
+                <NavLink to={`/tourism/${spot.id}`} className="btn">
+                  View Details
+                </NavLink>
+              </div>
               </div>
             </div>
           ))}
           </div>
-
-        {selectedSpot && (
-          <Modal
-            isOpen={true}
-            onRequestClose={handleCloseModal}
-            contentLabel="Tourism Spot Details"
-            className="modal"
-            overlayClassName="modal-overlay"
-          >
-            <h2>Tourism Spot Details</h2>
-            <p><b>Name:</b> {selectedSpot.name}</p>
-            <p><b>Location:</b> {selectedSpot.location}</p>
-            <p><b>Description:</b> {selectedSpot.description}</p>
-            <p><b>Entry Fee:</b> {selectedSpot.entryFee}</p>
-            <img src={selectedSpot.imageUrl} alt={selectedSpot.name} className="spot-image" />
-            <button className='btn' onClick={handleCloseModal}>Close</button>
-          </Modal>
-        )}
       </div>
     </>
   );

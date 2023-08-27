@@ -15,7 +15,7 @@
 
  .card {
   width: 350px;
-  height: 450px;
+  height: 530px;
   background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
   border-radius: 20px;
   transition: all .3s;
@@ -23,9 +23,9 @@
  
  .card2 {
   width: 350px;
-  height: 450px;
+  height: 530px;
   display: flex;
-  background-color: #1a1a1a;
+  background-color:white;
   border-radius: 10px;
   transition: all .2s;
  }
@@ -44,16 +44,31 @@
   flex-direction:  row;
   justify-content: space-around;
 }
+.spot-heading{
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  color:black;
+}
+.spot-description{
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  color:black;
+}
 .spot-image {
   width: 100%;
-  max-height: 200px;
+  max-height: 370px;
   object-fit: cover;
   border-radius: 5px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .spot-content .btn {
   color: #b31616;
   text-decoration: none;
+  margin-top: 20px;
   padding: 10px;
   font-weight: 600;
   font-size: 15px;
@@ -89,75 +104,8 @@
 .spot-content .btn:active {
   box-shadow: none;
 }
-.modal-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1000;
-}
-
-/* Styles for the modal content */
-.modal {
-  position: relative;
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 20px;
-  width: 400px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-/* Modal title */
-.modal h2 {
-  margin-bottom: 10px;
-  color: #333;
-}
-
-/* Modal details */
-.modal p {
-  margin-bottom: 10px;
-  color: #555;
-}
-
-/* Modal image */
-.spot-image {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
 /* Close button */
-.modal .btn {
-  padding: 10px 20px;
-  background-color: #ddd;
-  border-radius: 4px;
-  color: #333;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
 
-.modal .btn:hover {
-  background-color: #bbb;
-}
-
-/* Give Feedback button */
-.tourism-navlink {
-  display: block;
-  text-align: center;
-  margin-top: 20px;
-  color: white;
-  text-decoration: none;
-}
-
-.tourism-navlink:hover {
-  text-decoration: underline;
-}
 
 @media only screen and (max-width: 800px) {
   .spot-card {
