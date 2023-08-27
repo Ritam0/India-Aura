@@ -15,9 +15,38 @@
     width: 30%;
     margin: 20px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 2px solid transparent;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     text-align: left;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.3s;
+    position: relative;
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    border-color: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  }
+  
+  .blog-card::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 2px solid transparent;
+    z-index: -1;
+    animation: borderAnimation 2s infinite alternate;
+  }
+  
+  @keyframes borderAnimation {
+    0% {
+      border-color: solid;
+    }
+    100% {
+      border-color:linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    }
   }
   
   .blog-card img {
@@ -37,15 +66,28 @@
   
   .like-button,
   .comment-button {
-    padding: 5px 10px;
+    padding: 8px 20px;
     border: none;
-    background-color: #007bff;
-    color: white;
+    background-color: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    color: rgb(0, 0, 0);
     cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    border-radius: 20px;
   }
   
   .like-button:hover,
   .comment-button:hover {
-    background-color: #0056b3;
+    background-color: #00bbf4;
+    transform: scale(1.05);
+  }
+  
+  /* Media Query for Responsive Layout */
+  @media (max-width: 768px) {
+    .blogs {
+      justify-content: center;
+    }
+    .blog-card {
+      width: 100%;
+    }
   }
   
