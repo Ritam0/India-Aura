@@ -9,6 +9,7 @@ const tourismSpots = [
   {
     id: 1,
     name: 'Business Tour',
+    link:'./Buisness.js',
     description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
     imageUrl: 'https://i.pinimg.com/564x/83/64/40/836440f5a61124dc869d8a90c868ddf7.jpg',
   },
@@ -22,6 +23,7 @@ const tourismSpots = [
   {
     id: 1,
     name: 'Wildlife Tour',
+    link:'./Wildlife',
     description: 'Life is peaceful when you are surround by the forests',
     imageUrl: 'https://i.pinimg.com/564x/16/16/f8/1616f8cd581e09aebdaddabdefdb8f6d.jpg',
   },

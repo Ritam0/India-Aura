@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './Navbar';
 import { NavLink } from 'react-router-dom';
 import Modal from 'react-modal';
-import './VWildlife.css'; // Make sure to create a CSS file for styling
+import './Wildlife.css'; // Make sure to create a CSS file for styling
 
 const tourismSpots = [
   {
@@ -45,7 +45,7 @@ const tourismSpots = [
 
 ];
 
-const Vacation_page = () => {
+const Wildlife = () => {
   const [selectedSpot, setSelectedSpot] = useState(null);
 
   return (
@@ -74,4 +74,4 @@ const Vacation_page = () => {
   );
 };
 
-export default Vacation_page;
+export default Wildlife;

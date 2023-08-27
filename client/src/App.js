@@ -11,6 +11,7 @@ import WriteBlog from './components/WriteBlog.js';
 import ReadBlog from './components/ReadBlog.js';
 import Cultural_page from './components/Cultural';
 import Vacation_page from './components/Vacations';
+import Wildlife from './components/Wildlife';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/uploadblog" element={<WriteBlog/>} className="WriteBlog" /> 
           <Route path="/Cultural.js" element={<Cultural_page/>} className="Cultural" /> 
           <Route path="/Vacations.js" element={<Vacation_page/>} className="Vacation" /> 
+          <Route path="/Wildlife" element={<Wildlife/>} className="Wildlife" /> 
         </Routes>
     </>
   );
