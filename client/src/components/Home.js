@@ -1,55 +1,51 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import Navbar from './Navbar'
-// import Services from './Services'
-import Footer from './Footer'
+import Navbar from './Navbar';
+import Footer from './Footer';
 import './Home.css';
-import tour_home from "./image/home_tour.png"
-import Andaman from "./image/andaman/Andaman1.jpeg"
-import { useState,useEffect } from 'react';
+import tour_home from "./image/home_tour.png";
 
 const Home = () => {
+    const [textIndex, setTextIndex] = useState(0);
+    const texts = ["Aura", "Tourism"];
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
+        }, 3000);
+
+        return () => clearInterval(interval);
+    }, []);
+
     return (
         <div>
             <Navbar />
 
             <main id='home_main'>
-
                 <section id='left_sec'>
                     <section id='home_heading'>
-                        Indian <span> Tourism </span>
+                        India <span>{texts[textIndex]}</span>
                     </section>
                     <section id='home_desc'>
-                    Explore India's Rich Tapestry: Unveil Majestic Landscapes, Timeless Heritage, and Culinary Delights on Your Journey of a Lifetime.
+                        Explore India's Rich Tapestry: Unveil Majestic Landscapes, Timeless Heritage, and Culinary Delights on Your Journey of a Lifetime.
                     </section>
                     <section id='home_left_btn'>
-
-                        {/* <button className="button">
-                            <NavLink  to="/doctors">Our Doctors</NavLink>
-                        </button> */}
-                        {/* <button className='doctors_btn'><NavLink className="doctors_navlink" to="/doctors">Our Doctors</NavLink></button> */}
                         <NavLink className="doctors_navlink" to="/doctors">
                             <button className="button" type="submit" >
                                 <span className="button-content">Dream Tourism</span>
                             </button>
                         </NavLink>
-
                     </section>
-
                 </section>
                 <section id='right_sec'>
                     <img src={tour_home} alt="pic" />
                 </section>
-
-
             </main>
-
 
             {/* <Services /> */}
             {/* <Footer /> */}
-
         </div>
     )
 }
 
-export default Home
+export default Home;
