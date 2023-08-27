@@ -1,0 +1,50 @@
+/* ReadBlog.css */
+.blog-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .blog-card {
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+  
+  .blog-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .blog-card h3 {
+    margin: 10px 0;
+  }
+  
+  .interaction {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .like-button,
+  .comment-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .like-button:hover,
+  .comment-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -11,6 +11,7 @@ import MyProfile from './components/MyProfile';
 import FeedbackForm from './components/Feedback';
 import CustomerRegistration from './components/Customer';
 import WriteBlog from './components/WriteBlog';
+import ReadBlog from './components/ReadBlog';
 // import Services from './components/Services';
 
 const App = () => {
@@ -27,7 +28,7 @@ const App = () => {
           <Route path="/profile" element={<MyProfile />} className="MyProfile" />
           <Route path="/Feedback" element={<FeedbackForm />} className="FeedbackForm" />
           <Route path="/list-service" element={<CustomerRegistration/>} className="FeedbackForm" />
-          <Route path="/blog" element={<WriteBlog/>} className="WriteBlog" /> 
+          <Route path="/blog" element={<ReadBlog/>} className="ReadBlog" /> 
         </Routes>
     </>
   );
