@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import { NavLink } from 'react-router-dom';
 import Modal from 'react-modal';
 import './doctors.css'; // Make sure to create a CSS file for styling
+import Cultural from './Cultural.js'
 
 const tourismSpots = [
   {
@@ -13,6 +14,7 @@ const tourismSpots = [
   },
   {
     id: 2,
+    link:'./Cultural.js',
     name: 'Cultural Tour',
     description: 'The temple is a place where prayers turn into miracles',
     imageUrl: 'https://i.pinimg.com/564x/3a/13/68/3a13681ec70b40d88953c058c227909a.jpg',
@@ -47,7 +49,7 @@ const TourismPage = () => {
                 <h2 className="spot-heading">{spot.name}</h2>
                 <p className="spot-description">{spot.description}</p>
                 <img className="spot-image" src={spot.imageUrl} alt={spot.name} />
-                <NavLink to={`/tourism/${spot.id}`} className="btn">
+                <NavLink to={`/${spot.link}`} className="btn">
                   View Details
                 </NavLink>
               </div>
