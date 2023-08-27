@@ -1,0 +1,96 @@
+/* BeachPage Styles */
+.beach-page-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 8px 1px rgb(0, 123, 255);
+  }
+  
+  .beach-page-container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+  }
+  
+  .search-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-options input {
+    padding: 10px;
+    width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .beach-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .beach-card {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .beach-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .beach-name {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .beach-location {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .btn {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .beach-cards {
+      grid-template-columns: 1fr;
+    }
+  
+    .search-options {
+      flex-direction: column;
+    }
+  
+    .search-options input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  

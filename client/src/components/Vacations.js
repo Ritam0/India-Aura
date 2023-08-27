@@ -13,6 +13,7 @@ const tourismSpots = [
   },
   {
     id: 2,
+    link:'./Beach.js',
     name: 'Beaches',
     description: 'The temple is a place where prayers turn into miracles',
     imageUrl: 'https://i.pinimg.com/564x/e7/04/56/e7045643b35fba6754bf68e0dcae3bb0.jpg',
@@ -47,7 +48,7 @@ const Vacation_page = () => {
                 <h2 className="Vacation-heading">{spot.name}</h2>
                 <p className="Vacation-description">{spot.description}</p>
                 <img className="Vacation-image" src={spot.imageUrl} alt={spot.name} />
-                <NavLink to={`/tourism/${spot.id}`} className="btn">
+                <NavLink to={`/${spot.link}`} className="btn">
                   View Details
                 </NavLink>
               </div>
