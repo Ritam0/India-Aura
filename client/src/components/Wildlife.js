@@ -9,37 +9,37 @@ const tourismSpots = [
     id: 1,
     name: 'Jim Corbett National Park',
     description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
-    imageUrl: 'https://i.pinimg.com/564x/1f/c2/52/1fc252a644755e2f6dbe458d0478ee1c.jpg',
+    imageUrl: 'https://i.pinimg.com/564x/67/90/ed/6790ed4cc45790d7be9ae88bcf1619a2.jpg',
   },
   {
     id: 2,
     name: 'Kaziranga National Park',
     description: 'The temple is a place where prayers turn into miracles',
-    imageUrl: 'https://i.pinimg.com/564x/e7/04/56/e7045643b35fba6754bf68e0dcae3bb0.jpg',
+    imageUrl: 'https://i.pinimg.com/564x/20/9c/22/209c22432420096b150c584128b1704f.jpg',
   },
   {
     id: 1,
-    name: 'Ranthambore National Park',
+    name: 'Sundarbans National Park',
     description: 'Life is peaceful when you are surround by the forests',
-    imageUrl: 'https://i.pinimg.com/564x/1a/af/c4/1aafc4a4a11c75993dd2c3e7d6c56aef.jpg',
+    imageUrl: 'https://i.pinimg.com/564x/40/5a/ae/405aae5c581dfef088ac771b22e6bf4c.jpg',
   },
   {
     id: 2,
-    name: 'Sundarbans National Park',
+    name: 'Ranthambore National Park',
     description: 'India has a rich biodiversity; spend a holiday in India!',
-    imageUrl:'https://i.pinimg.com/564x/86/20/31/8620312709482d873085a6e7829c2b6c.jpg',
+    imageUrl:'https://i.pinimg.com/564x/e5/9b/23/e59b2362364c54e9240bd409f479e233.jpg',
   },
   {
     id: 1,
     name: 'Jaldapara National Park',
     description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
-    imageUrl: 'https://i.pinimg.com/564x/1f/c2/52/1fc252a644755e2f6dbe458d0478ee1c.jpg',
+    imageUrl: 'https://i.pinimg.com/564x/52/11/6e/52116e6a8c93dd06664a2b30058039a1.jpg',
   },
   {
     id: 2,
     name: 'Gorumara National Park',
     description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
-    imageUrl: 'https://i.pinimg.com/564x/1f/c2/52/1fc252a644755e2f6dbe458d0478ee1c.jpg',
+    imageUrl: 'https://i.pinimg.com/564x/d9/ea/f4/d9eaf41d63fe1e72f4ebe53a756c2c97.jpg',
   },
 
 
@@ -51,16 +51,16 @@ const Wildlife = () => {
   return (
     <>
       <Navbar />
-      <div className="Vacation-page-container">
+      <div className="Wildlife-page-container">
         <h1>Incredible India</h1>
-          <div className="Vacation_cardDisplay">
+          <div className="WildlifeDisplay">
           {tourismSpots.map((spot) => (
-            <div key={spot.id} class="Vacation_card">
-              <div class="Vacation_card2">
-              <div className="Vacation-content">
-                <h2 className="Vacation-heading">{spot.name}</h2>
-                <p className="Vacation-description">{spot.description}</p>
-                <img className="Vacation-image" src={spot.imageUrl} alt={spot.name} />
+            <div key={spot.id} class="Wildlife">
+              <div class="Wildlife2">
+              <div className="Wildlife-content">
+                <h2 className="Wildlife-heading">{spot.name}</h2>
+                <p className="Wildlife-description">{spot.description}</p>
+                <img className="Wildlife-image" src={spot.imageUrl} alt={spot.name} />
                 <NavLink to={`/tourism/${spot.id}`} className="btn">
                   View Details
                 </NavLink>
