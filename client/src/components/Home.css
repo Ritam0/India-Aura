@@ -152,3 +152,34 @@
     }
 
 }
+@media only screen and (max-width: 800px) {
+    #home_main {
+      flex-direction: column-reverse;
+      padding-top: 70px;
+    }
+  
+    #right_sec {
+      width: 98vw;
+    }
+  
+    #left_sec {
+      width: 90vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #home_heading {
+      font-size: 30px;
+    }
+  
+    #right_sec img {
+      width: 97vw;
+    }
+  
+    #image_gallery {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+  
