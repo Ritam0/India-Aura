@@ -1,10 +1,10 @@
 /* Tourism Page Styles */
 
-.Vacation-page-container{
+.Wildlife-page-container{
     margin-top: 80px;
   }
   
-  .Vacation-page-container h1 {
+  .Wildlife-page-container h1 {
     text-align: center;
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@
     padding: 20px;
   }
   
-   .Vacation_card {
+   .Wildlife {
     width: 600px;
     height: 530px;
     background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
@@ -22,7 +22,7 @@
     border:5px solid blue;
    }
    
-   .Vacation_card2 {
+   .Wildlife2 {
     width: 600px;
     height: 530px;
     display: flex;
@@ -32,34 +32,34 @@
     padding: 20px;
    }
    
-   .Vacation_card2:hover {
+   .Wildlife2:hover {
     transform: scale(0.98);
     border-radius: 20px;
    }
    
-   .Vacation_card:hover {
+   .Wildlife:hover {
     box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
     border:0px
    }
   
-  .Vacation_cardDisplay {
+  .WildlifeDisplay {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  .Vacation-heading{
+  .Wildlife-heading{
     font-weight: 700;
     font-size: 25px;
     text-align: center;
     color:black;
   }
-  .Vacation-description{
+  .Wildlife-description{
     font-weight: 500;
     font-size: 20px;
     text-align: center;
     color:black;
   }
-  .Vacation-image {
+  .Wildlife-image {
     width: 525px;
     max-height: 350px;
     object-fit: cover;
@@ -69,7 +69,7 @@
     margin-left: 30px;
   }
   
-  .Vacation-content .btn {
+  .Wildlife-content .btn {
     color: #b31616;
     text-decoration: none;
     margin-top: 20px;
@@ -81,7 +81,7 @@
     border-radius: 5px;
   }
   
-  .Vaction-card::before {
+  .Wildlife::before {
     content: "";
     position: absolute;
     left: 0;
@@ -90,35 +90,35 @@
     height: 100%;
   }
   
-  .vaction-card:hover::before {
+  .Wildlife:hover::before {
     width: 100%;
   }
   
-  .Vacation-card:hover .btn {
+  .Wildlife:hover .btn {
     color: #212121;
     background: #e8e8e8;
   }
   
-  .Vacation-content .btn:hover {
+  .Wildlife .btn:hover {
     outline: 2px solid #e8e8e8;
     background: transparent;
     color: #b31616;
   }
   
-  .Vacation-content .btn:active {
+  .Wildlife .btn:active {
     box-shadow: none;
   }
   /* Close button */
   
   
   @media only screen and (max-width: 800px) {
-    .Vacation-card {
+    .Wildlife {
       padding: 20px;
       width: 88vw;
       justify-content: left;
     }
   
-    .Vacation-heading {
+    .Wildlife-heading {
       font-size: 25px;
     }
   }
