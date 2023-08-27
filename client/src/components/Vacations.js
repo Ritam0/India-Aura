@@ -9,7 +9,7 @@ const tourismSpots = [
     id: 1,
     name: 'Mountain-Tops',
     description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
-    imageUrl: 'https://i.pinimg.com/564x/83/64/40/836440f5a61124dc869d8a90c868ddf7.jpg',
+    imageUrl: 'https://i.pinimg.com/564x/da/ca/04/daca042ed777537279407c91d15ded5f.jpg',
   },
   {
     id: 2,
