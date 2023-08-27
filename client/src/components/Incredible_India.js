@@ -20,7 +20,7 @@ const tourismSpots = [
   
 ];
 
-const TourismPage = () => {
+const Incredible_India = () => {
   const [selectedSpot, setSelectedSpot] = useState(null);
 
   return (
