@@ -59,12 +59,12 @@ const WriteBlog = ({type}) => {
     <>
       <Navbar />
       <main id='reg_main'>
-        <section id='reg_left_sec'>
+        {/* <section id='reg_left_sec'>
           <img src={log_reg_page_pic} alt="pic" />
-        </section>
+        </section> */}
         <section id='reg_right_sec'>
           <div className="registration-form-container">
-            <h1>Register {type}</h1>
+            <h1>Write Blog {type}</h1>
             <form onSubmit={handleSubmit}>
               <div className="form-control">
                 <input className="reg_input reg_input-alt" placeholder="Name" type="text" value={name} onChange={(e) => setName(e.target.value)} required />

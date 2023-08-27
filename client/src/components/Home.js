@@ -5,6 +5,8 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import './Home.css';
 import tour_home from "./image/home_tour.png"
+import Andaman from "./image/andaman/Andaman1.jpeg"
+import { useState,useEffect } from 'react';
 
 const Home = () => {
     return (
@@ -18,7 +20,7 @@ const Home = () => {
                         Indian <span> Tourism </span>
                     </section>
                     <section id='home_desc'>
-                        Empowering Health and Wellness: Your Trusted Source for Medical Insights and Care
+                    Explore India's Rich Tapestry: Unveil Majestic Landscapes, Timeless Heritage, and Culinary Delights on Your Journey of a Lifetime.
                     </section>
                     <section id='home_left_btn'>
 

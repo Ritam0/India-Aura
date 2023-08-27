@@ -46,7 +46,7 @@ const Navbar = () => {
           <li>
           <NavLink className="nav-link" to="/blog">Blog</NavLink>
           </li>
-          <li><NavLink className="nav-link" to="/About">About Us</NavLink></li>
+          {/* <li><NavLink className="nav-link" to="/About">About Us</NavLink></li> */}
           <li><NavLink className="nav-link" to="/Registration">Register</NavLink></li>
           <li>{localStorage.getItem("token") != null ? <NavLink className="nav-link" to="/profile">Profile</NavLink> :<NavLink className="nav-link" to="/login">Login</NavLink> } </li>
         </ul>
