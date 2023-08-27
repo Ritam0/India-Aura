@@ -4,7 +4,7 @@ import axios from 'axios';
 import './MyProfile.css';
 import Navbar from './Navbar'
 import { NavLink } from 'react-router-dom';
-
+ 
 const MyProfile = () => {
   const navigate = useNavigate();
   const [userDetails, setUserDetails] = useState({});
@@ -67,7 +67,7 @@ const MyProfile = () => {
     <>
       <Navbar />
       <div className='myproflie_main_body'>
-        <h1>Your Profile</h1>
+        <h1>Wellcome to India Aura</h1>
         <div className="myprofile_main_card">
           <div className="myprofile_pic_card">
             <img src={uri} alt="user_pic" className="image" />
@@ -107,6 +107,30 @@ const MyProfile = () => {
           </div>
         </div>
       </div>
+
+
+      <div className="booking-card-container">
+      <div className="booking-card">
+        <img src="https://i.pinimg.com/564x/60/44/71/604471ed304322decb60d7c52b4632a3.jpg" alt="Write Blog" />
+        <h2>Write Blog</h2>
+        <button>Start Writing</button>
+      </div>
+      <div className="booking-card">
+        <img src="https://i.pinimg.com/564x/54/57/24/545724f929914db48a3d1964f983f755.jpg" alt="Tour Package" />
+        <h2>Book Tour Package</h2>
+        <button>Book Now</button>
+      </div>
+      <div className="booking-card">
+        <img src="https://i.pinimg.com/564x/17/ea/f1/17eaf15d7a73220fbcaf6f669296b499.jpg" alt="Book Flight" />
+        <h2>Book Flight</h2>
+        <button>Book Now</button>
+      </div>
+      <div className="booking-card">
+        <img src="https://i.pinimg.com/564x/fb/5e/d4/fb5ed42def009168081b2776b7708228.jpg" alt="Book Hotels" />
+        <h2>Book Hotels</h2>
+        <button>Book Now</button>
+      </div>
+    </div>
       
     </>
   );
