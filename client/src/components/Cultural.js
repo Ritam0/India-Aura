@@ -70,7 +70,7 @@ const Cultural_page = () => {
               <div className="Cultural-content">
                 <h2 className="Cultural-heading">{spot.name}</h2>
                 <p className="Cultural-description">{spot.description}</p>
-                <img className="sCultural-image" src={spot.imageUrl} alt={spot.name} />
+                <img className="Cultural-image" src={spot.imageUrl} alt={spot.name} />
               </div>
               </div>
             </div>
