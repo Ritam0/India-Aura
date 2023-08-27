@@ -62,6 +62,9 @@ const MyProfile = () => {
   const Feedback = () => {
     navigate("/Feedback");
   }
+  const BlogUpload=()=>{
+    navigate("/uploadblog");
+  }
 
   return (
     <>
@@ -93,11 +96,6 @@ const MyProfile = () => {
               <button className="myproflie_button" onClick={logoutProfile}>
                 <p className="text">logout</p>
               </button>
-              <NavLink className="doctors_navlink" to="/uploadblog">
-              <button className="myproflie_button" >
-                <p className="text">Write Blog</p>
-              </button>
-              </NavLink>
               <button className="myproflie_button" onClick={Feedback}>
                 <p className="text">Give Feedback</p>
               </button>
@@ -113,22 +111,22 @@ const MyProfile = () => {
       <div className="booking-card">
         <img src="https://i.pinimg.com/564x/60/44/71/604471ed304322decb60d7c52b4632a3.jpg" alt="Write Blog" />
         <h2>Write Blog</h2>
-        <button>Start Writing</button>
+        <a href={BlogUpload}><button>Start Writing</button></a>
       </div>
       <div className="booking-card">
         <img src="https://i.pinimg.com/564x/54/57/24/545724f929914db48a3d1964f983f755.jpg" alt="Tour Package" />
         <h2>Book Tour Package</h2>
-        <button>Book Now</button>
+        <a href="https://www.makemytrip.com/" target='_blank'><button>Book Now</button></a>
       </div>
       <div className="booking-card">
         <img src="https://i.pinimg.com/564x/17/ea/f1/17eaf15d7a73220fbcaf6f669296b499.jpg" alt="Book Flight" />
         <h2>Book Flight</h2>
-        <button>Book Now</button>
+        <a href="https://www.makemytrip.com/" target='_blank'><button>Book Now</button></a>
       </div>
       <div className="booking-card">
         <img src="https://i.pinimg.com/564x/fb/5e/d4/fb5ed42def009168081b2776b7708228.jpg" alt="Book Hotels" />
         <h2>Book Hotels</h2>
-        <button>Book Now</button>
+        <a href="https://www.airbnb.co.in/" target='_blank'><button>Book Now</button></a>
       </div>
     </div>
       
