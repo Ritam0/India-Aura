@@ -32,6 +32,7 @@ const App = () => {
           <Route path="/list-service" element={<CustomerRegistration/>} className="FeedbackForm" />
           <Route path="/blog" element={<ReadBlog/>} className="ReadBlog" /> 
           <Route path="/Cultural.js" element={<Cultural_page/>} className="ReadBlog" /> 
+          <Route path="/Vacations.js" element={<Vacation_page/>} className="ReadBlog" /> 
         </Routes>
     </>
   );
