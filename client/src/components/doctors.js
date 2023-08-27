@@ -21,6 +21,22 @@ const tourismSpots = [
     entryFee: 'Varies',
     imageUrl: 'https://example.com/eiffel-tower.jpg',
   },
+  {
+    id: 1,
+    name: 'Golden Gate Bridge',
+    location: 'San Francisco, USA',
+    description: 'Iconic suspension bridge known for its beauty and engineering.',
+    entryFee: 'Free',
+    imageUrl: 'https://example.com/golden-gate-bridge.jpg',
+  },
+  {
+    id: 1,
+    name: 'Golden Gate Bridge',
+    location: 'San Francisco, USA',
+    description: 'Iconic suspension bridge known for its beauty and engineering.',
+    entryFee: 'Free',
+    imageUrl: 'https://example.com/golden-gate-bridge.jpg',
+  },
   // Add more tourism spots here
 ];
 
@@ -40,16 +56,15 @@ const TourismPage = () => {
       <Navbar />
       <div className="tourism-page-container">
         <h1>Tourism Spots</h1>
-        <section id="spot-cards">
+          <div className="cardDisplay">
           {tourismSpots.map((spot) => (
-            <div key={spot.id} className="spot-card">
-              <div className="spot-content">
-                <p className="spot-heading">{spot.name}</p>
-                <button className="btn" onClick={() => handleOpenModal(spot)}>View Details</button>
+            <div key={spot.id} class="card">
+              <div class="card2">
               </div>
             </div>
           ))}
-        </section>
+          </div>
+
         {selectedSpot && (
           <Modal
             isOpen={true}
@@ -67,9 +82,6 @@ const TourismPage = () => {
             <button className='btn' onClick={handleCloseModal}>Close</button>
           </Modal>
         )}
-        <NavLink className="tourism-navlink" to="/Feedback">
-          <button className='btn'>Give Feedback</button>
-        </NavLink>
       </div>
     </>
   );
