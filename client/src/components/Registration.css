@@ -45,7 +45,7 @@
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
-  box-shadow: 0 0 8px 2px rgb(204, 0, 255);
+  box-shadow: 0 0 8px 2px rgb(253, 186, 1);
   border-radius: 8px;
   background-color: #fff;
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
@@ -54,7 +54,7 @@
 }
 
 .registration-form-container h1 {
-  color: rgb(77, 0, 77);
+  color: rgb(251, 169, 4);
   text-align: center;
 }
 
@@ -132,7 +132,7 @@
 
 .reg_input-border-alt {
   height: 3px;
-  background: linear-gradient(90deg, #FF6464 0%, #FFBF59 50%, #47C9FF 100%);
+  background: linear-gradient(90deg, #ffc164 0%, #ffffff 50%, #6eff0d 100%);
   transition: width 0.4s cubic-bezier(0.42, 0, 0.58, 1.00);
 }
 
@@ -149,17 +149,17 @@
   height: 60px;
   margin: 10px;
   border-radius: 50%;
-  border: 2px solid rgb(255, 0, 0);
+  border: 2px solid rgb(255, 170, 0);
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  box-shadow: 0px 0px 100px rgb(255, 0, 0), inset 0px 0px 10px rgb(255, 0, 0), 0px 0px 5px rgb(255, 255, 255);
+  box-shadow: 0px 0px 100px rgb(255, 172, 6), inset 0px 0px 10px rgb(255, 255, 255), 0px 0px 5px rgb(59, 254, 15);
   animation: flicker 2s linear infinite;
 }
 
 .icon {
-  color: rgb(255, 0, 0);
+  color: rgb(0, 136, 255);
   font-size: 2rem;
   cursor: pointer;
   animation: iconflicker 2s linear infinite;
@@ -170,7 +170,7 @@
   padding: 5px;
   cursor: pointer;
   border-radius: 20px;
-  box-shadow: 0 0 5px 1px rgb(255, 0, 0);
+  box-shadow: 0 0 5px 1px rgb(105, 249, 2);
   width: fit-content;
   display: flex;
   justify-content: center;
@@ -179,12 +179,12 @@
 }
 
 #input_file_label:active {
-  box-shadow: 0 0 8px 2px rgb(0, 81, 255);
+  box-shadow: 0 0 8px 2px rgb(0, 255, 221);
 
 }
 
 #input_file_label:hover {
-  box-shadow: 0 0 8px 2px rgb(204, 0, 255);
+  box-shadow: 0 0 8px 2px rgb(255, 196, 0);
 
 }
 

@@ -33,6 +33,7 @@ function MyVerticallyCenteredModal(props) {
 const tourismSpots = [
   {
     id: 1,
+    link:"/",
     name: '50 Day India Tour',
     description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
     imageUrl: 'https://i.pinimg.com/564x/83/64/40/836440f5a61124dc869d8a90c868ddf7.jpg',
@@ -96,6 +97,7 @@ const tourismSpots = [
   },
   {
     id: 2,
+    link:"/",
     name: '30 Day India Tour',
     description: 'The temple is a place where prayers turn into miracles',
     imageUrl: 'https://i.pinimg.com/564x/3a/13/68/3a13681ec70b40d88953c058c227909a.jpg',

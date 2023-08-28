@@ -3,7 +3,7 @@
     background-color: rgb(255, 255, 255);
     min-height: 300px;
     height: fit-content;
-    box-shadow: 0 0 10px 2px black;
+    box-shadow: 0 0 10px 2px rgba(214, 214, 214, 0.443);
     /* position: absolute; */
     /* width: 100vw; */
     /* bottom: 0; */
@@ -18,7 +18,7 @@
 }
 
 #footer_heading span {
-    color: orangered;
+    color: rgba(59, 228, 197, 0.877);
 }
 
 #our_contact_options {
