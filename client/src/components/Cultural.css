@@ -20,6 +20,7 @@
   border-radius: 20px;
   transition: all 0.3s;
   border: 5px solid blue;
+  margin: 20px;
 }
 
 .Cultural2 {
@@ -62,7 +63,7 @@
 }
 .Cultural-image {
   width: 525px;
-  max-height: 450px;
+  max-height: 380px;
   object-fit: cover;
   border-radius: 5px;
   padding: 20px;
@@ -71,7 +72,7 @@
 }
 
 .Cultural-content .btn {
-  color: #b31616;
+  color: #fff;
   text-decoration: none;
   margin-top: 20px;
   padding: 10px;

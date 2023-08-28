@@ -1,6 +1,5 @@
 /* BeachPage Styles */
 .beach-page-container {
-    max-width: 800px;
     margin: 100px auto;
     padding: 20px;
     border-radius: 8px;
@@ -8,6 +7,31 @@
     box-shadow: 0 0 8px 1px rgb(0, 123, 255);
   }
   
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:skyblue;
+  padding: 10px;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.modal-image {
+  width: 100%; 
+  height: 200px;   
+  display: block;
+  margin: 0 auto; 
+}
+
+
+/* Set a higher z-index for the modal */
+.modal {
+  z-index: 1000;
+}
+
+
   .beach-page-container h1 {
     margin-bottom: 20px;
     text-align: center;
@@ -20,27 +44,26 @@
     margin-bottom: 20px;
   }
   
-  .search-options input {
-    padding: 10px;
-    width: 45%;
+  .search-options input[type="text"] {
+    padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-right: 10px;
   }
   
   .beach-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(4, 1fr); 
     gap: 20px;
   }
   
   .beach-card {
     position: relative;
     border: 1px solid #ccc;
-    padding: 10px;
     border-radius: 8px;
+    padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  
   .beach-image {
     width: 100%;
     height: 200px;
@@ -59,7 +82,10 @@
     font-size: 14px;
     color: #777;
   }
-  
+  .beach-Duration {
+    margin-top: 5px;
+    font-size: 14px;
+  }
   .btn {
     display: block;
     margin-top: 10px;
