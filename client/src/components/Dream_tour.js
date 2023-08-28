@@ -45,7 +45,7 @@ const TourismPage = () => {
       <div className="tourism-page-container">
       <div className="video-container">
           <video autoPlay muted loop id="background-video">
-            <source src="/videos/Tourism.mp4" type="video/mp4" />
+            <source src="/videos/Tourism2.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
