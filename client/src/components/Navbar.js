@@ -41,7 +41,7 @@ const Navbar = () => {
         <ul id='navuls' style={{ height: ulVisible ? '' : '170px' }}>
           <li><NavLink className="nav-link" to="/">Home</NavLink></li>
           <li>
-          <NavLink className="nav-link" to="/doctors">Dream Tour</NavLink>
+          <NavLink className="nav-link" to="/Dream_tour">Dream Tour</NavLink>
           </li>
           <li>
           <NavLink className="nav-link" to="/blog">Blog</NavLink>

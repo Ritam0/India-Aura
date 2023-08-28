@@ -75,7 +75,7 @@ We Developed a Tavel website using Node Js,Express JS, Mongo DB Backend And in F
 </div>
 
 
-|🚀 **Demo of The Medical Web Application**
+|🚀 **Demo of The Travel Web Application**
 
 Check out this awesome animated GIF showcasing our project:
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './Navbar';
 import { NavLink } from 'react-router-dom';
 import Modal from 'react-modal';
-import './doctors.css'; // Make sure to create a CSS file for styling
+import './Dream_tour.css'; // Make sure to create a CSS file for styling
 import Cultural from './Cultural.js'
 
 const tourismSpots = [
