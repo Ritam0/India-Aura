@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Durga_puja.css';
 
-function App() {
+function Durga_puja() {
   const [descriptions, setDescriptions] = useState([{ description: '', photoLink: '' }]);
 
   const handleDescriptionChange = (e, index) => {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './Kerala.css';
+import './kerala.css';
 
-function App() {
+function Kerala() {
   const [descriptions, setDescriptions] = useState([{ description: '', photoLink: '' }]);
 
   const handleDescriptionChange = (e, index) => {
