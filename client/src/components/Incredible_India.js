@@ -7,13 +7,13 @@ import './Incredible_India.css'; // Make sure to create a CSS file for styling
 const tourismSpots = [
   {
     id: 1,
-    name: 'Business Tour',
+    name: '50 Day India Tour',
     description: 'Pack your vision, unpack opportunities – thats the rhythm of a business tour.',
     imageUrl: 'https://i.pinimg.com/564x/83/64/40/836440f5a61124dc869d8a90c868ddf7.jpg',
   },
   {
     id: 2,
-    name: 'Cultural Tour',
+    name: '30 Day India Tour',
     description: 'The temple is a place where prayers turn into miracles',
     imageUrl: 'https://i.pinimg.com/564x/3a/13/68/3a13681ec70b40d88953c058c227909a.jpg',
   },
@@ -27,6 +27,12 @@ const Incredible_India = () => {
     <>
       <Navbar />
       <div className="Incredible_India-page-container">
+      <div className="video-container">
+                <video autoPlay muted loop id="background-video">
+                    <source src="/videos/Tourism.mp4" type="video/mp4" />   
+                    Your browser does not support the video tag.
+                </video>
+        </div>
         <h1>Incredible India</h1>
           <div className="Incredible_IndiaDisplay">
           {tourismSpots.map((spot) => (
