@@ -33,8 +33,9 @@
 
 ## 🎞️Demo
 
-<video src="https://github.com/ritesh2004/HACKATHON_CSE2K23/assets/109234507/db0172ce-c1e0-4024-bd1f-8efc7b098d0a">
-</video>
+[<video src="https://www.youtube.com/watch?v=P2Ix2aOvCOM">
+</video>](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/cb377366-ba93-4bea-98cf-b244fb1aa15b
+)
 
 ## 🚀Screenshots
 
@@ -85,6 +86,10 @@
 
 
 ## 👨‍💻Problem solved by this project
+India is a beautiful country. The diversity in this country is incredible. Even then, many smaller countries attract more foreign tourists than India. But why? Why can't we bring people to show them our amazing country? The answer could be simple, a BRANDING problem.
+India is the most beautiful country in the world the Himalayan mountains peaches of Kerala the desert of Rajasthan what doesn't India have just one thing tourist City come to Dubai but in India only 10 million that's it. and this impacts our hotels and our businesses and our economy the country is ours and if we want to become a superpower economy that's why we made this amazing project named India Aura.
+![WhatsApp Image 2023-08-28 at 20 25 35](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/3ec6ccaf-139e-44c1-837f-8dac5c427aa7)
+
 
 
 ## 🛠️Tech Stack
