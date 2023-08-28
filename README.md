@@ -33,8 +33,9 @@
 
 ## 🎞️Demo
 
-<video src="https://github.com/ritesh2004/HACKATHON_CSE2K23/assets/109234507/db0172ce-c1e0-4024-bd1f-8efc7b098d0a">
-</video>
+[<video src="https://www.youtube.com/watch?v=P2Ix2aOvCOM">
+</video>](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/cb377366-ba93-4bea-98cf-b244fb1aa15b
+)
 
 ## 🚀Screenshots
 
@@ -42,100 +43,40 @@
 
 🚀 *Home Screen*
 
-<div align="center">
-  <img src="client\src\components\image\readme images\homepage.png" alt="pic" align="center" style="width: 100%;" />
-</div>
+![WhatsApp Image 2023-08-28 at 20 29 36](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/1bdbb8b8-a686-4491-895a-220036b9ee53)
 
 🚀 *Dram Tour Destination*
 
-<div align="center">
-<img src="client\src\components\image\readme images\dreamtour.png" alt="pic" align="center" style="width: 100%;" />
-</div>
+![WhatsApp Image 2023-08-28 at 20 29 32](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/395599dd-f1af-4f4b-84f0-b1d89e9c1b54)
 
 🚀 *Vacation_page*
 
-<div align="center">
-<img src="client\src\components\image\readme images\vaccation.png" alt="pic" align="center" style="width: 100%;" />
-</div>
+![WhatsApp Image 2023-08-28 at 20 29 35 (1)](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/f7b98f0f-3755-447b-9252-60fd42e35aa1)
 
 🚀 *Beach_page*
 
-<div align="center">
-<img src="client\src\components\image\readme images\beach.png" alt="pic" align="center" style="width: 100%;" />
-</div>
+![WhatsApp Image 2023-08-28 at 20 29 34](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/4ce6f8c4-c9f9-4ab2-bb0d-a0e565ea4091)
 
 🚀 *Blog*
+![WhatsApp Image 2023-08-28 at 20 29 39 (1)](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/5e0ae1bd-8a8e-4e46-8ca5-e14fd6a30e94)
 
-<div align="center">
-<img src="🚀 *Home Screen*
-
-<div align="center">
-  <img src="client\src\components\image\readme images\homepage.png" alt="pic" align="center" style="width: 100%;" />
-</div>
-
-🚀 *Dram Tour Destination*
-
-<div align="center">
-<img src="client\src\components\image\readme images\dreamtour.png" alt="pic" align="center" style="width: 100%;" />
-</div>
-
-🚀 *Vacation_page*
-
-<div align="center">
-<img src="client\src\components\image\readme images\vaccation.png" alt="pic" align="center" style="width: 100%;" />
-</div>
-
-🚀 *Beach_page*
-
-<div align="center">
-<img src="client\src\components\image\readme images\beach.png" alt="pic" align="center" style="width: 100%;" />
-</div>
-
-🚀 *Blog*
-
-<div align="center">
-<img src="client\src\components\image\readme images\blog.png" alt="pic" align="center" style="width: 100%;" />
-</div>
 
 
 🚀 *Chat Bot*
 
-<div align="center">
-<img src="client\src\components\image\readme images\chatbot.png" alt="pic" align="center" style="width: 100%;" />
-</div>
+![WhatsApp Image 2023-08-28 at 20 29 35](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/2b5e7d3c-7d5c-4d44-a1ba-5020c57579d6)
 
 🚀*Register_page*
 
-<div align="center">
-<img src="client\src\components\image\readme images\registration.png" alt="pic" align="center" style="width: 100%;" />
-</div>
+![WhatsApp Image 2023-08-28 at 20 29 39](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/23240e05-8f8e-4550-b9da-fd5eda6ea9d3)
 
 🚀 *Login_page*
 
-<div align="center">
-<img src="client\src\components\image\readme images\login.png" alt="pic" align="center" style="width: 100%;" />
-</div>
-" alt="pic" align="center" style="width: 100%;" />
-</div>
+![WhatsApp Image 2023-08-28 at 20 29 33](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/e71f1b13-5cf2-4f44-9583-62a7b1a26cbb)
 
 
-🚀 *Chat Bot*
 
-<div align="center">
-<img src="client\src\components\image\readme images\chatbot.png" alt="pic" align="center" style="width: 100%;" />
-</div>
 
-🚀*Register_page*
-
-<div align="center">
-<img src="client\src\components\image\readme images\registration.png" alt="pic" align="center" style="width: 100%;" />
-</div>
-
-🚀 *Login_page*
-
-<div align="center">
-<img src="client\src\components\image\readme images\login.png" alt="pic" align="center" style="width: 100%;" />
-</div>
 
 ## 🚀Project Idea
 
@@ -145,6 +86,10 @@
 
 
 ## 👨‍💻Problem solved by this project
+India is a beautiful country. The diversity in this country is incredible. Even then, many smaller countries attract more foreign tourists than India. But why? Why can't we bring people to show them our amazing country? The answer could be simple, a BRANDING problem.
+India is the most beautiful country in the world the Himalayan mountains peaches of Kerala the desert of Rajasthan what doesn't India have just one thing tourist City come to Dubai but in India only 10 million that's it. and this impacts our hotels and our businesses and our economy the country is ours and if we want to become a superpower economy that's why we made this amazing project named India Aura.
+![WhatsApp Image 2023-08-28 at 20 25 35](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/3ec6ccaf-139e-44c1-837f-8dac5c427aa7)
+
 
 
 ## 🛠️Tech Stack
