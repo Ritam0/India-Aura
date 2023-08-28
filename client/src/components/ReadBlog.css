@@ -183,7 +183,7 @@
     color: orange;
     font-weight: 800;
     font-size: 100px;
-    top:150px;
+    top:100px;
     right:50px;
     /* border: 10px solid black; */
   }
@@ -193,4 +193,47 @@
   .d2{
     color: rgb(33, 242, 33);
   }
+  @keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.diver {
+    display: inline-block;
+    animation: fadeInOut 5s ease-in-out infinite;
+}
+.hov{
+  position: absolute;
+  color: orange;
+  font-weight: 800;
+  font-size: 50px;
+  top:400px;
+  right:300px;
+  /* border: 10px solid black; */
+}
+.chat{
+  position: absolute;
+  color: orange;
+  font-weight: 800;
+  font-size: 30px;
+  bottom:100px;
+  right:50px;
+  /* border: 10px solid black; */
+}
+.wh{
+  position: absolute;
+  
+  background-color: white;
+  padding-left :100px;
+  padding-right: 150px;
+  padding-top: 170px;
+  bottom: 70px;
+  left: 310px;
+}
   

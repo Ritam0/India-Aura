@@ -5,6 +5,7 @@ import './ReadBlog.css';
 import Navbar from './Navbar';
 import tour_home from "./image/home_tour.png"
 import pointer from "./image/map-pointer.png"
+import { FcUpLeft } from "react-icons/fc";
 
 const ReadBlog = () => {
   // const [allblogs, setAllBlogs] = useState([]);
@@ -50,6 +51,13 @@ const ReadBlog = () => {
       <div className="diver">
         Divercity <span className="d1">of</span> <span className="d2">India</span>
       </div>
+      <div className="hov">
+       Hover Map<span className="d1"> to Know</span> <span className="d2">Divercity</span>
+      </div>
+      <div className="chat">
+        Contact Chat Bot<span className="d1"> to Visit</span> <span className="d2">Divercity</span>
+      </div>
+      <div className="wh"></div>
     </>
     </>
   );
