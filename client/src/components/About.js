@@ -25,7 +25,7 @@ const AboutUsPage = () => {
           <section id='about_middle'>
 
             <section id='about_left_sec'>
-              <img src="https://i.pinimg.com/564x/f1/9e/3f/f19e3f6aa4a72afd2dc7fb9211db5954.jpg" alt="pic" />
+              <img src="https://i.pinimg.com/564x/53/f5/05/53f5055ac9a70e225d0e348475a86596.jpg" alt="pic" />
             </section>
 
             <section id='about_right_sec'>
