@@ -51,7 +51,7 @@ function LoginForm () {
       <Navbar />
       <main id='reg_main'>
         <section id='reg_left_sec'>
-          <img src={log_reg_page_pic} alt="pic" />
+          <img src="https://i.pinimg.com/564x/28/c9/3c/28c93c56c66759285deb95daa536cbda.jpg" alt="pic" />
         </section>
         <section id='reg_right_sec'>
           <div className="registration-form-container">
