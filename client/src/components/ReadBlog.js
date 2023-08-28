@@ -43,10 +43,10 @@ const ReadBlog = () => {
         ))}
       </div> */}
       <div className="blog_india"><img src={tour_home} alt="img" /></div>
-      <a href="/blog/tajmahal"><div className="point1"><span className='inner-pointer'>Taj Maha</span>l</div></a>
-      <a href="/blog/durgapuja"><div className="point2"><span className='inner-pointer' >Durga Puja</span></div></a>
-      <a href="/blog/kashmir"><div className="point3"><span className='inner-pointer'>Kashmir</span></div></a>
-      <a href="/blog/kerala"><div className="point4"><span className='inner-pointer'>Kerala</span></div></a>
+      <a href="https://medium.com/@seovueindia19/visiting-taj-mahal-the-story-of-love-best-taj-mahal-travel-blog-with-inside-information-ca14ff3cc1b4" target="_blank"><div className="point1"><span className='inner-pointer'>Taj Mahal</span></div></a>
+      <a href="https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703" target='_blank'><div className="point2"><span className='inner-pointer' >Durga Puja</span></div></a>
+      <a href="https://sandeepachetan.com/category/kashmir/" target='_blank'><div className="point3"><span className='inner-pointer'>Kashmir</span></div></a>
+      <a href="/https://keralablogexpress.com/" target="_blank"><div className="point4"><span className='inner-pointer'>Kerala</span></div></a>
 
       <div className="diver">
         Diversity <span className="d1">of</span> <span className="d2">India</span>
