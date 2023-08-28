@@ -11,7 +11,7 @@ const MyProfile = () => {
   const [uri, setUri] = useState('https://mgcfeni.edu.bd/midea/featuredimage/featuredimage2019-03-04-13-47-19_5c7d1e5732a77.jpg');
 
 
-  const callProfile = async () => {
+  const callProfile = async () => { 
     try {
       const token = localStorage.getItem('token');
       const mail = localStorage.getItem('mail');
