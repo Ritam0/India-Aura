@@ -88,11 +88,6 @@ function MyVerticallyCenteredModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <img
-          src={imageUrl}
-          alt="Image Alt Text"
-          className="modal-image"
-        />
         <h4>{spot.name} Tour Details:</h4>
         <p>{spot.details}</p>
       </Modal.Body>
