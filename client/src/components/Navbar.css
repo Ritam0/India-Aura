@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 .navbar-brand{
-    width: 100%;
-    height:100%
+    width: 150px;
+    height:400px;
 }
 .nav-link.active {
     border-bottom: 5px solid #C8E4B2;

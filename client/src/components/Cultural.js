@@ -71,6 +71,9 @@ const Cultural_page = () => {
                 <h2 className="Cultural-heading">{spot.name}</h2>
                 <p className="Cultural-description">{spot.description}</p>
                 <img className="Cultural-image" src={spot.imageUrl} alt={spot.name} />
+                <NavLink to={`/${spot.link}`} className="btn">
+                  View Details
+                </NavLink>
               </div>
               </div>
             </div>
