@@ -28,22 +28,73 @@ We Developed a Tavel website using Node Js,Express JS, Mongo DB Backend And in F
 
 3.MongoDB Atlas
 
-4.POSTMAN
+4.live server Extension (only for Vs code)
 
-5.live server Extension (only for Vs code)
+🚀 Travel Web Application
 
-Click on the Click Here to see the File Share Demo on YouTube.
+🚀 **Home Screen**
 
-| Name of Script| YouTube Link  | Tools Used   |
-| ------------- | ------------- | -------- |
-| Bibhab Mukhopadhyay,Dibyajyoti Biswas,Ritam Majumder           | [Click on the Link](https://www.youtube.com/embed/<VIDEO_ID>)         | Node Js, Express Js, Mongo DB [Backend] HTML, CSS,avaScript [Frontend], |
+<div align="center">
+  <img src="client/src/components/image/Home_page.png" alt="pic" align="center" style="width: 100%;" />
+</div>
+
+🚀 **Dram Tour Destination**
+
+<div align="center">
+<img src="client\src\components\image\readme images\dreamtour.png" alt="pic" align="center" style="width: 100%;" />
+</div>
+
+🚀 **Vacation_page**
+
+<div align="center">
+<img src="client/src/components/image/Doctor's_Details.png" alt="pic" align="center" style="width: 100%;" />
+</div>
+
+🚀 **Beach_page**
+
+<div align="center">
+<img src="client\src\components\image\readme images\beach.png" alt="pic" align="center" style="width: 100%;" />
+</div>
+
+🚀 **Blog**
+
+<div align="center">
+<img src="client\src\components\image\readme images\blog.png" alt="pic" align="center" style="width: 100%;" />
+</div>
+
+🚀**Register_page**
+
+<div align="center">
+<img src="client\src\components\image\readme images\registration.png" alt="pic" align="center" style="width: 100%;" />
+</div>
+
+🚀 **Login_page**
+
+<div align="center">
+<img src="client\src\components\image\readme images\login.png" alt="pic" align="center" style="width: 100%;" />
+</div>
 
 
-## 🚀INDIA AURA UI
-## 🚀Home page
+|🚀 **Demo of The Medical Web Application**
+
+Check out this awesome animated GIF showcasing our project:
+
+![Demo](client\src\components\image\demo.gif)
 
 
 
-! https://raw.githubusercontent.com/Ritam0/India-Aura/main/client/src/components/image/Screenshot%202023-08-28%20165631.png?token=GHSAT0AAAAAACGX2TS54UQVG2OXFBZ5MBWAZHMRJVA)
+Thank you for your interest in Digi-Cure! For more information, explore our [website](https://digicure.vercel.app)
+
+
+
+
+🚀 DEVELOPER
+
+**Ritam Majunder**
+
+**Dibyojyoti Biswas**
+
+**Bibhab Mukhopadhyay**
+
 
 
