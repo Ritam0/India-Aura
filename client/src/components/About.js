@@ -4,7 +4,6 @@ import "./About.css";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
 import Footer from './Footer'
-import faq_left_pic from "./image/faq_left_pic.jpg"
 
 const AboutUsPage = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -26,70 +25,28 @@ const AboutUsPage = () => {
           <section id='about_middle'>
 
             <section id='about_left_sec'>
-              <img src={faq_left_pic} alt="pic" />
-
-              <section id='about_faq_sec'>
-                <section id='faq_heading'>
-                  FA<span>Q</span>
-                </section>
-
-                <section className='faqs' onClick={() => toggleFaq(0)}>
-                  <div className="faqs_heading" >
-                    Q: How can I find doctors near me?
-                  </div>
-                  <div className="faqs_desc" style={{ height: openIndex === 0 ? '250px' : '0' }}>
-                    A:To find doctors near you, simply enter your location or zip code in the search bar on our website. We will then display a list of qualified doctors and healthcare professionals in your area, along with their specialties and contact information
-                  </div>
-                </section>
-
-                <section className='faqs' onClick={() => toggleFaq(1)}>
-                  <div className="faqs_heading" >
-                    Q: What types of doctors can I find on your website?
-                  </div>
-                  <div className="faqs_desc" style={{ height: openIndex === 1 ? '250px' : '0' }}>
-                    A: Our website lists a wide range of healthcare professionals, including general practitioners, specialists (e.g., cardiologists, dermatologists, pediatricians), dentists, psychiatrists, and more. You can filter the search results based on your specific needs and preferences
-                  </div>
-                </section>
-
-                <section className='faqs' onClick={() => toggleFaq(2)}>
-                  <div className="faqs_heading" >
-                    Q: How do I book an appointment with a doctor I find on your website?
-                  </div>
-                  <div className="faqs_desc" style={{ height: openIndex === 2 ? '250px' : '0' }}>
-                    Booking an appointment is easy. Once you have selected a doctor from the list, click on their profile to view their availability. You can then choose a suitable date and time and follow the booking instructions provided. Some doctors may offer online booking, while others may require you to call their office directly.
-                  </div>
-                </section>
-
-                <section className='faqs' onClick={() => toggleFaq(3)}>
-                  <div className="faqs_heading" >
-                    Q: Are the doctors on your website verified and licensed?
-                  </div>
-                  <div className="faqs_desc" style={{ height: openIndex === 3 ? '250px' : '0' }}>
-                    A: Yes, we take the verification and licensing of doctors seriously. All the healthcare professionals listed on our website are required to provide valid credentials and proof of licensure before being included in our database. We regularly update and verify their information to ensure accuracy and compliance with relevant regulations.
-                  </div>
-                </section>
-                <section className='faqs' onClick={() => toggleFaq(4)}>
-                  <div className="faqs_heading" >
-                    Q: Can I read reviews and ratings for the doctors on your website?
-                  </div>
-                  <div className="faqs_desc" style={{ height: openIndex === 4 ? '250px' : '0' }}>
-                    Yes, we encourage patients to leave reviews and ratings based on their experiences with the doctors. You can find these reviews on each doctors profile. Reading patient reviews can provide valuable insights into the doctors expertise, bedside manner, and overall patient satisfaction.
-                  </div>
-                </section>
-              </section>
-
+              <img src="https://i.pinimg.com/564x/f1/9e/3f/f19e3f6aa4a72afd2dc7fb9211db5954.jpg" alt="pic" />
             </section>
 
             <section id='about_right_sec'>
-              Welcome to Digi-Cure, your premier destination for reliable medical information and compassionate care. At Digi-Cure, we are dedicated to empowering individuals with accurate health insights and connecting them with top-notch medical professionals.
-              <br /><br />
-              Our mission is to be your trusted source for all things related to health and wellness. Whether you're seeking information about a specific medical condition, exploring treatment options, or looking for expert advice, our comprehensive resources are here to guide you.
-
-              <br /><br />
-              Our team of experienced medical professionals is committed to providing you with the highest level of care. We understand that navigating the complexities of healthcare can be daunting, which is why we strive to make your journey as smooth as possible. Our user-friendly platform ensures easy access to valuable articles, videos, and resources that cover a wide range of medical topics.
-              <br /><br />
-
-              At Digi-Cure, we believe that everyone deserves the best possible care. That's why we work tirelessly to deliver accurate and up-to-date information, promoting informed decisions about your health. Whether you're a patient, caregiver, or simply someone who wants to stay well-informed, we invite you to explore our website and join us on the path to a healthier and happier life. Your well-being is our priority, and we're here to support you every step of the way.
+            Welcome to India Aura – a realm where the rich tapestry of India's cultural heritage, ancient traditions, and awe-inspiring landscapes comes to life. With an unwavering commitment to showcasing the essence of India, we invite you on an extraordinary journey of exploration and discovery.
+            <br></br>
+            At India Aura, our mission is to be your guiding light through the myriad facets of India's diverse and captivating heritage. From the iconic landmarks that whisper tales of centuries gone by to the vibrant festivals that paint the towns in vivid hues, we are here to provide you with an immersive experience that captures the heart and soul of India.
+            <br></br>
+            Our dedicated team of enthusiasts and experts is driven by a shared passion for India's remarkable legacy. With each piece of content meticulously curated, we aim to deliver an authentic and meaningful encounter with India's cultural treasures. We understand that navigating India's vastness can be overwhelming, and that's why we've crafted a platform that offers a seamless flow of information, making it easy for you to embark on this enriching journey.
+            <br></br>
+            As you embark on your India Aura experience, you'll find a treasure trove of articles, videos, and resources that delve into every corner of India. From the bustling bazaars of Rajasthan to the serene backwaters of Kerala, from the intricacies of classical dance forms to the flavors of regional cuisines, our platform is designed to take you on a virtual exploration that leaves no stone unturned.
+            <br></br>
+            India's cultural mosaic is a reflection of its diverse populace, and at India Aura, we celebrate this diversity. Whether you're an art enthusiast looking to unravel the secrets of ancient sculptures, a history buff seeking to decode the stories etched in monuments, or a traveler yearning to immerse yourself in the landscapes that have inspired poets for centuries, you'll find a space where your curiosity is met with comprehensive and insightful content.
+            <br></br>
+            In a world that's constantly evolving, India Aura remains steadfast in its dedication to preserving the past while embracing the present. We provide you with the tools to not only explore but also engage with India's heritage. Join discussions with experts, participate in virtual tours of historical sites, and become a part of a community that shares your passion for all things India.
+            <br></br>
+            Every visit to India Aura is an opportunity to embark on a new adventure. Uncover the hidden gems of lesser-known destinations, witness the vivacity of regional festivals, and immerse yourself in the stories that have shaped India's identity. With content that spans a wide spectrum of topics – from architecture and literature to spirituality and natural wonders – we're your companion in unraveling the layers of India's uniqueness.
+            <br></br>
+            We believe that the magic of India should be accessible to all, regardless of geographic boundaries. Whether you're planning a future trip to India, seeking inspiration for your creative pursuits, or simply nurturing a love for global cultures, India Aura welcomes you with open arms. Each click, each scroll, and each interaction on our platform is an invitation to dive deeper into the captivating world of India.
+            <br></br>
+            As you explore India Aura, envision yourself strolling through ancient marketplaces, savoring the aroma of spices, feeling the rhythmic beats of traditional music, and witnessing the harmonious coexistence of tradition and modernity. This is the essence of India, encapsulated in a digital space that's as vast and vibrant as the nation itself.
+            <br></br>
             </section>
           </section>
 
