@@ -42,100 +42,40 @@
 
 🚀 *Home Screen*
 
-<div align="center">
-  <img src="client\src\components\image\readme images\homepage.png" alt="pic" align="center" style="width: 100%;" />
-</div>
+![WhatsApp Image 2023-08-28 at 20 29 36](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/1bdbb8b8-a686-4491-895a-220036b9ee53)
 
 🚀 *Dram Tour Destination*
 
-<div align="center">
-<img src="client\src\components\image\readme images\dreamtour.png" alt="pic" align="center" style="width: 100%;" />
-</div>
+![WhatsApp Image 2023-08-28 at 20 29 32](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/395599dd-f1af-4f4b-84f0-b1d89e9c1b54)
 
 🚀 *Vacation_page*
 
-<div align="center">
-<img src="client\src\components\image\readme images\vaccation.png" alt="pic" align="center" style="width: 100%;" />
-</div>
+![WhatsApp Image 2023-08-28 at 20 29 35 (1)](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/f7b98f0f-3755-447b-9252-60fd42e35aa1)
 
 🚀 *Beach_page*
 
-<div align="center">
-<img src="client\src\components\image\readme images\beach.png" alt="pic" align="center" style="width: 100%;" />
-</div>
+![WhatsApp Image 2023-08-28 at 20 29 34](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/4ce6f8c4-c9f9-4ab2-bb0d-a0e565ea4091)
 
 🚀 *Blog*
+![WhatsApp Image 2023-08-28 at 20 29 39 (1)](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/5e0ae1bd-8a8e-4e46-8ca5-e14fd6a30e94)
 
-<div align="center">
-<img src="🚀 *Home Screen*
-
-<div align="center">
-  <img src="client\src\components\image\readme images\homepage.png" alt="pic" align="center" style="width: 100%;" />
-</div>
-
-🚀 *Dram Tour Destination*
-
-<div align="center">
-<img src="client\src\components\image\readme images\dreamtour.png" alt="pic" align="center" style="width: 100%;" />
-</div>
-
-🚀 *Vacation_page*
-
-<div align="center">
-<img src="client\src\components\image\readme images\vaccation.png" alt="pic" align="center" style="width: 100%;" />
-</div>
-
-🚀 *Beach_page*
-
-<div align="center">
-<img src="client\src\components\image\readme images\beach.png" alt="pic" align="center" style="width: 100%;" />
-</div>
-
-🚀 *Blog*
-
-<div align="center">
-<img src="client\src\components\image\readme images\blog.png" alt="pic" align="center" style="width: 100%;" />
-</div>
 
 
 🚀 *Chat Bot*
 
-<div align="center">
-<img src="client\src\components\image\readme images\chatbot.png" alt="pic" align="center" style="width: 100%;" />
-</div>
+![WhatsApp Image 2023-08-28 at 20 29 35](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/2b5e7d3c-7d5c-4d44-a1ba-5020c57579d6)
 
 🚀*Register_page*
 
-<div align="center">
-<img src="client\src\components\image\readme images\registration.png" alt="pic" align="center" style="width: 100%;" />
-</div>
+![WhatsApp Image 2023-08-28 at 20 29 39](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/23240e05-8f8e-4550-b9da-fd5eda6ea9d3)
 
 🚀 *Login_page*
 
-<div align="center">
-<img src="client\src\components\image\readme images\login.png" alt="pic" align="center" style="width: 100%;" />
-</div>
-" alt="pic" align="center" style="width: 100%;" />
-</div>
+![WhatsApp Image 2023-08-28 at 20 29 33](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/e71f1b13-5cf2-4f44-9583-62a7b1a26cbb)
 
 
-🚀 *Chat Bot*
 
-<div align="center">
-<img src="client\src\components\image\readme images\chatbot.png" alt="pic" align="center" style="width: 100%;" />
-</div>
 
-🚀*Register_page*
-
-<div align="center">
-<img src="client\src\components\image\readme images\registration.png" alt="pic" align="center" style="width: 100%;" />
-</div>
-
-🚀 *Login_page*
-
-<div align="center">
-<img src="client\src\components\image\readme images\login.png" alt="pic" align="center" style="width: 100%;" />
-</div>
 
 ## 🚀Project Idea
 
