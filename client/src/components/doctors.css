@@ -48,6 +48,11 @@
   flex-direction:  row;
   justify-content: space-around;
 }
+#background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This will ensure the video covers the entire container */
+}
 .spot-heading{
   font-weight: 700;
   font-size: 25px;
