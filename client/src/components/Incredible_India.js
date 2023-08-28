@@ -1,8 +1,39 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import { NavLink } from 'react-router-dom';
-import Modal from 'react-modal';
 import './Incredible_India.css'; // Make sure to create a CSS file for styling
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+
+function MyVerticallyCenteredModal(props) {
+  const { imageUrl, onHide, beach } = props;
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Your Tour Our Responsibility
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+      <img
+          src={imageUrl}
+          alt="Image Alt Text"
+          className="modal-image"
+        />
+        <h4>{beach.name} Tour Details:</h4>
+        <p>{beach.details}</p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
 
 const tourismSpots = [
   {
@@ -22,6 +53,12 @@ const tourismSpots = [
 
 const Incredible_India = () => {
   const [selectedSpot, setSelectedSpot] = useState(null);
+  const [modalShow, setModalShow] = useState(false);
+
+  const handleViewDetails = (spot) => {
+    setSelectedSpot(spot);
+    setModalShow(true);
+  };
 
   return (
     <>
@@ -37,19 +74,28 @@ const Incredible_India = () => {
           <div className="Incredible_IndiaDisplay">
           {tourismSpots.map((spot) => (
             <div key={spot.id} class="Incredible_India">
-              <div class="Incredible_India2">
+              <div className="Incredible_India2">
               <div className="Incredible_India-content">
                 <h2 className="Incredible_India-heading">{spot.name}</h2>
                 <p className="Incredible_India-description">{spot.description}</p>
                 <img className="Incredible_India-image" src={spot.imageUrl} alt={spot.name} />
-                <NavLink to={`/tourism/${spot.id}`} className="btn">
-                  View Details
-                </NavLink>
+                <Button variant="primary" onClick={() => handleViewDetails(spot)}>
+
+                 View Details
+                </Button>
               </div>
               </div>
             </div>
           ))}
           </div>
+          {selectedSpot && (
+          <MyVerticallyCenteredModal
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+            imageUrl={selectedSpot.imageUrl}
+            beach={selectedSpot}
+          />
+        )}
       </div>
     </>
   );
