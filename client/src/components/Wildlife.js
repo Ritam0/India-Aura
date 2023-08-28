@@ -1,8 +1,35 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import { NavLink } from 'react-router-dom';
-import Modal from 'react-modal';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 import './Wildlife.css'; // Make sure to create a CSS file for styling
+
+function MyVerticallyCenteredModal(props) {
+  const { imageUrl, onHide, wildlifeSpot } = props;
+
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Wildlife Adventure: {wildlifeSpot.name}
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <h4>Tour Details:</h4>
+        <p>{wildlifeSpot.details}</p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
 
 const tourismSpots = [
   {
@@ -28,12 +55,26 @@ const tourismSpots = [
     name: 'Gorumara National Park',
     description: "Gorumara: Where the forest's heart beats to the rhythm of the wild",
     imageUrl: 'https://i.pinimg.com/564x/d9/ea/f4/d9eaf41d63fe1e72f4ebe53a756c2c97.jpg',
+    details: (
+      <>
+        Day 1: Arrival in Siliguri<br />
+        Day 2: Transfer to Gorumara Forest<br />
+        Day 3: Jeep Safari - Gorumara National Park<br />
+        Day 4: Explore Chapramari Wildlife Sanctuary<br />
+        Day 5: River Rafting - Murti River<br />
+        Day 6: Visit Samsing and Suntalekhola<br />
+        Day 7: Jeep Safari - Jaldapara National Park<br />
+        Day 8: Elephant Safari - Jaldapara National Park<br />
+        Day 9: Bird Watching - Rasikbill<br />
+        Day 10: Departure with Memories<br />
+      </>
+    ),
   },
   {
     id: 1,
     name: 'Jim Corbett National Park',
     description: "Where tigers roam free: Jim Corbett's majestic domain",
-    imageUrl: 'https://i.pinimg.com/564x/67/90/ed/6790ed4cc45790d7be9ae88bcf1619a2.jpg',
+    imageUrl: 'https://i.pinimg.com/564x/a5/c0/b4/a5c0b44f844b815737322a79488c59b2.jpg',
   },
   {
     id: 2,
@@ -46,6 +87,12 @@ const tourismSpots = [
 
 const Wildlife = () => {
   const [selectedSpot, setSelectedSpot] = useState(null);
+  const [modalShow, setModalShow] = useState(false);
+
+  const handleViewDetails = (spot) => {
+    setSelectedSpot(spot);
+    setModalShow(true);
+  };
 
   return (
     <>
@@ -60,14 +107,22 @@ const Wildlife = () => {
                 <h2 className="Wildlife-heading">{spot.name}</h2>
                 <p className="Wildlife-description">{spot.description}</p>
                 <img className="Wildlife-image" src={spot.imageUrl} alt={spot.name} />
-                <NavLink to={`/tourism/${spot.id}`} className="btn">
+                <Button variant="primary" onClick={() => handleViewDetails(spot)}>
                   View Details
-                </NavLink>
+                </Button>
               </div>
               </div>
             </div>
           ))}
           </div>
+          {selectedSpot && (
+          <MyVerticallyCenteredModal
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+            imageUrl={selectedSpot.imageUrl}
+            wildlifeSpot={selectedSpot}
+          />
+        )}
       </div>
     </>
   );

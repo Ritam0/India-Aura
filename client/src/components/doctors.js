@@ -43,6 +43,12 @@ const TourismPage = () => {
     <>
       <Navbar />
       <div className="tourism-page-container">
+      <div className="video-container">
+          <video autoPlay muted loop id="background-video">
+            <source src="/videos/Tourism.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
         <h1>Incredible India</h1>
           <div className="cardDisplay">
           {tourismSpots.map((spot) => (

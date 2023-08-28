@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import { NavLink } from 'react-router-dom';
-import Modal from 'react-modal';
+import { Button, Modal } from 'react-bootstrap';
 import './Cultural.css'; // Make sure to create a CSS file for styling
 
 const tourismSpots = [
@@ -16,6 +16,24 @@ const tourismSpots = [
     name: 'Haridwar',
     description: 'Haridwar: Where the Ganges flows and spirituality thrives.',
     imageUrl: 'https://i.pinimg.com/564x/3a/13/68/3a13681ec70b40d88953c058c227909a.jpg',
+    details: (
+        <>
+          Day 1: Arrival in Haridwar<br />
+          Day 2: Har Ki Pauri and Mansa Devi Temple<br />
+          Day 3: Yoga and Meditation<br />
+          Day 4: Rishikesh Excursion<br />
+          Day 5: Rajaji National Park<br />
+          Day 6: Haridwar Temples<br />
+          Day 7: Ghat and Temple Exploration<br />
+          Day 8: Ayurveda and Wellness<br />
+          Day 9: Ganges Dip and Rituals<br />
+          Day 10: Haridwar Markets<br />
+          Day 11: Chilla Wildlife Sanctuary<br />
+          Day 12: Temple Pilgrimage<br />
+          Day 13: Ganga Riverside Picnic<br />
+          Day 14: Departure<br />
+        </>
+    )
   },
   {
     id: 1,
@@ -55,33 +73,76 @@ const tourismSpots = [
   },
 ];
 
+function MyVerticallyCenteredModal(props) {
+  const { imageUrl, onHide, spot } = props;
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Your Tour Our Responsibility
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <img
+          src={imageUrl}
+          alt="Image Alt Text"
+          className="modal-image"
+        />
+        <h4>{spot.name} Tour Details:</h4>
+        <p>{spot.details}</p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
 const Cultural_page = () => {
   const [selectedSpot, setSelectedSpot] = useState(null);
+  const [modalShow, setModalShow] = useState(false);
+
+  const handleViewDetails = (spot) => {
+    setSelectedSpot(spot);
+    setModalShow(true);
+  };
 
   return (
     <>
       <Navbar />
       <div className="Cultural-page-container">
         <h1>Incredible India</h1>
-          <div className="CulturalDisplay">
+        <div className="CulturalDisplay">
           {tourismSpots.map((spot) => (
-            <div key={spot.id} class="Cultural">
-              <div class="Cultural2">
-              <div className="Cultural-content">
-                <h2 className="Cultural-heading">{spot.name}</h2>
-                <p className="Cultural-description">{spot.description}</p>
-                <img className="Cultural-image" src={spot.imageUrl} alt={spot.name} />
-                <NavLink to={`/${spot.link}`} className="btn">
-                  View Details
-                </NavLink>
-              </div>
+            <div key={spot.id} className="Cultural">
+              <div className="Cultural2">
+                <div className="Cultural-content">
+                  <h2 className="Cultural-heading">{spot.name}</h2>
+                  <p className="Cultural-description">{spot.description}</p>
+                  <img className="Cultural-image" src={spot.imageUrl} alt={spot.name} />
+                  <Button variant="primary" onClick={() => handleViewDetails(spot)}>
+                    View Details
+                  </Button>
+                </div>
               </div>
             </div>
           ))}
-          </div>
+        </div>
+        {selectedSpot && (
+          <MyVerticallyCenteredModal
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+            imageUrl={selectedSpot.imageUrl}
+            spot={selectedSpot}
+          />
+        )}
       </div>
     </>
   );
 };
-
 export default Cultural_page;

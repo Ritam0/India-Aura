@@ -12,7 +12,13 @@
     color: black;
     padding: 20px;
   }
-  
+
+  .modal-content {
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
    .Wildlife {
     width: 600px;
     height: 530px;
@@ -22,7 +28,6 @@
     border:5px solid blue;
     margin: 20px;
    }
-   
    .Wildlife2 {
     width: 600px;
     height: 530px;

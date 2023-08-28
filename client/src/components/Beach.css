@@ -46,6 +46,7 @@
   .search-options input[type="text"] {
     padding: 8px;
     border: 1px solid #ccc;
+    width: 500px;
     border-radius: 4px;
     margin-right: 10px;
   }

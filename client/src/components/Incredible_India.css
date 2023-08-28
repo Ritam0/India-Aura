@@ -21,15 +21,7 @@
     transition: all .3s;
     border:5px solid blue;
    }
-   #background-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-  }
+
    .Incredible_India2 {
     width: 600px;
     height: 530px;
@@ -49,7 +41,17 @@
     box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
     border:0px
    }
-  
+   .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:skyblue;
+    padding: 10px;
+    border-radius: 10px;
+    height: 500px;
+    width: 1000px;
+  }
   .Incredible_IndiaDisplay {
     display: flex;
     flex-wrap: wrap;
