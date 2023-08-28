@@ -90,4 +90,63 @@
       width: 100%;
     }
   }
+
+  .blog_india img{
+    width: 600px;
+    position: relative;
+    margin-right: 800px;
+    margin-top: 100px;
+  }
+  .point1{
+    position: absolute;
+    left: 120px;
+    top: 300px;
+    padding-left: 80px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: 2px solid black; */
+  }
+  .point1:hover{
+    cursor: pointer;
+  }
+  .point2{
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid rgb(229, 17, 176);
+  }
+  .point2:hover{
+    cursor: pointer;
+  }
+  .point3{
+    position: absolute;
+    left: 120px;
+    top: 300px;
+    padding-left: 80px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid rgb(30, 123, 244);
+  }
+  .point3:hover{
+    cursor: pointer;
+  }
+  .point4{
+    position: absolute;
+    left: 120px;
+    top: 300px;
+    padding-left: 80px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid rgb(191, 27, 27);
+  }
+  .point4:hover{
+    cursor: pointer;
+  }
   
