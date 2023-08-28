@@ -2,7 +2,6 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
-import DoctorsList from './components/doctors';
 import RegistrationForm from './components/Registration';
 import LoginForm from './components/Login';
 import MyProfile from './components/MyProfile';
@@ -18,6 +17,7 @@ import Tajmahal from './components/Tajmahal';
 import Kerala from './components/Kerala';
 import Durga_puja from './components/Durga_puja';
 import Kashmir from './components/Kashmir';
+import TourismPage from './components/Dream_tour';
 
 const App = () => {
   return (
@@ -25,7 +25,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} className="home-page" />
           <Route path="/About" element={<About />} className="about-page" />
-          <Route path="/doctors" element={<DoctorsList />} className="Doctorlist" />
+          <Route path="/Dream_tour" element={<TourismPage/>} className="Tourismpage" />
           <Route path="/Registration" element={<RegistrationForm />} className="RegistrationForm" />
           <Route path="/login" element={<LoginForm />} className="LoginForm" />
           <Route path="/profile" element={<MyProfile />} className="MyProfile" />

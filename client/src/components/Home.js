@@ -18,7 +18,7 @@ const Home = () => {
                         Explore India's Rich Tapestry: Unveil Majestic Landscapes, Timeless Heritage, and Culinary Delights on Your Journey of a Lifetime.
                     </section>
                     <section id='home_left_btn'>
-                        <NavLink className="doctors_navlink" to="/doctors">
+                        <NavLink className="Dream_tour_navlink" to="/Dream_tour">
                             <button className="button" type="submit">
                                 <span className="button-content">Dream Tourism</span>
                             </button>
