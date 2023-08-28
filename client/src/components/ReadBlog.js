@@ -11,7 +11,7 @@ const ReadBlog = () => {
   // const [allblogs, setAllBlogs] = useState([]);
 
   // useEffect(() => {
-  //   axios.get('http://localhost:3001/read-blog')
+  //   axios.get('https://india-aura.onrender.com/read-blog')
   //     .then(response => {
   //       const data = response.data;
   //       setAllBlogs(data.blogs);
