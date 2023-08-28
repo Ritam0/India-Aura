@@ -35,7 +35,7 @@ We Developed a Tavel website using Node Js,Express JS, Mongo DB Backend And in F
 🚀 **Home Screen**
 
 <div align="center">
-  <img src="client/src/components/image/Home_page.png" alt="pic" align="center" style="width: 100%;" />
+  <img src="client\src\components\image\readme images\homepage.png" alt="pic" align="center" style="width: 100%;" />
 </div>
 
 🚀 **Dram Tour Destination**
@@ -47,7 +47,7 @@ We Developed a Tavel website using Node Js,Express JS, Mongo DB Backend And in F
 🚀 **Vacation_page**
 
 <div align="center">
-<img src="client/src/components/image/Doctor's_Details.png" alt="pic" align="center" style="width: 100%;" />
+<img src="client\src\components\image\readme images\vaccation.png" alt="pic" align="center" style="width: 100%;" />
 </div>
 
 🚀 **Beach_page**
@@ -62,6 +62,13 @@ We Developed a Tavel website using Node Js,Express JS, Mongo DB Backend And in F
 <img src="client\src\components\image\readme images\blog.png" alt="pic" align="center" style="width: 100%;" />
 </div>
 
+
+🚀 **Chat Bot**
+
+<div align="center">
+<img src="client\src\components\image\readme images\chatbot.png" alt="pic" align="center" style="width: 100%;" />
+</div>
+
 🚀**Register_page**
 
 <div align="center">
@@ -74,7 +81,6 @@ We Developed a Tavel website using Node Js,Express JS, Mongo DB Backend And in F
 <img src="client\src\components\image\readme images\login.png" alt="pic" align="center" style="width: 100%;" />
 </div>
 
-
 |🚀 **Demo of The Travel Web Application**
 
 Check out this awesome animated GIF showcasing our project:
@@ -83,7 +89,7 @@ Check out this awesome animated GIF showcasing our project:
 
 
 
-Thank you for your interest in Digi-Cure! For more information, explore our [website](https://digicure.vercel.app)
+Thank you for your interest in India-Aura! For more information, explore our [website](https://digicure.vercel.app)
 
 
 
