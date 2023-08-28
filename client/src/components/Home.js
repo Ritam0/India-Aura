@@ -29,6 +29,11 @@ const Home = () => {
                     <img src={tour_home} alt="pic" />
                 </section>
             </main>
+
+
+            {/* <Services /> */}
+            {/* <Footer /> */}
+
         </div>
     );
 }

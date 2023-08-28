@@ -5,6 +5,7 @@ import './ReadBlog.css';
 import Navbar from './Navbar';
 import tour_home from "./image/home_tour.png"
 import pointer from "./image/map-pointer.png"
+import { FcUpLeft } from "react-icons/fc";
 
 const ReadBlog = () => {
   // const [allblogs, setAllBlogs] = useState([]);
@@ -42,10 +43,21 @@ const ReadBlog = () => {
         ))}
       </div> */}
       <div className="blog_india"><img src={tour_home} alt="img" /></div>
-      <a href="/Beach.js"><div className="point1"><img src={pointer} alt="" /></div></a>
-      <a href="/Beach.js"><div className="point2"><img src={pointer} alt="" /></div></a>
-      <a href="/Beach.js"><div className="point3"><img src={pointer} alt="" /></div></a>
-      <a href="/Beach.js"><div className="point4"><img src={pointer} alt="" /></div></a>
+      <a href="/Beach.js"><div className="point1"><span className='inner-pointer'>Taj Maha</span>l</div></a>
+      <a href="/Beach.js"><div className="point2"><span className='inner-pointer' >Durga Puja</span></div></a>
+      <a href="/Beach.js"><div className="point3"><span className='inner-pointer'>Kashmir</span></div></a>
+      <a href="/Beach.js"><div className="point4"><span className='inner-pointer'>Kerala</span></div></a>
+
+      <div className="diver">
+        Divercity <span className="d1">of</span> <span className="d2">India</span>
+      </div>
+      <div className="hov">
+       Hover Map<span className="d1"> to Know</span> <span className="d2">Divercity</span>
+      </div>
+      <div className="chat">
+        Contact Chat Bot<span className="d1"> to Visit</span> <span className="d2">Divercity</span>
+      </div>
+      <div className="wh"></div>
     </>
     </>
   );
