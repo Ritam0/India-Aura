@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Kashmir.css';
 
-function App() {
+function Kashmir() {
   const [descriptions, setDescriptions] = useState([{ description: '', photoLink: '' }]);
 
   const handleDescriptionChange = (e, index) => {

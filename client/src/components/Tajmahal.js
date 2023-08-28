@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Tajmahal.css';
 
-function App() {
+function Tajmahal() {
   const [descriptions, setDescriptions] = useState([]);
   const [photos, setPhotos] = useState([]);
 
