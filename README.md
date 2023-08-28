@@ -9,7 +9,7 @@ We Developed a Tavel website using Node Js,Express JS, Mongo DB Backend And in F
 * In this website we can plan our dream tour in all over the India.
 * In the blog section we can cheak different blogs and read the blo about the place which we want.
 * Here day by day all tour plans are added and we can cheak the details.
-* We can choose places accourding to the 
+* We can choose places accourding to the plans.
 
 ## 🚀Setup instructions
 
