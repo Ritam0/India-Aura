@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import Modal from 'react-modal';
 import './Dream_tour.css'; // Make sure to create a CSS file for styling
 import Cultural from './Cultural.js'
+import WholeIndia from "./image/WholeIndia.mp4"
 
 const tourismSpots = [
   {
@@ -45,7 +46,7 @@ const TourismPage = () => {
       <div className="tourism-page-container">
       <div className="video-container">
           <video autoPlay muted loop id="background-video">
-            <source src="/videos/Tourism2.mp4" type="video/mp4" />
+            <source src={WholeIndia} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
