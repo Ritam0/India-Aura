@@ -1,4 +1,4 @@
-# InterHactive Hackathon 2k23
+# InterHacktive Hackathon 2k23
 <div align="center">
   <img src="https://india-aura.vercel.app/static/media/Indiaaura-logo.b542c4a66b151cb0830c.png" alt="Logo" width="120" height="120"/>
   <h2>India Aura(Tourism Website)</h2>
@@ -86,8 +86,12 @@
 
 
 ## 👨‍💻Problem solved by this project
-India is a beautiful country. The diversity in this country is incredible. Even then, many smaller countries attract more foreign tourists than India. But why? Why can't we bring people to show them our amazing country? The answer could be simple, a BRANDING problem.
-India is the most beautiful country in the world the Himalayan mountains peaches of Kerala the desert of Rajasthan what doesn't India have just one thing tourist City come to Dubai but in India only 10 million that's it. and this impacts our hotels and our businesses and our economy the country is ours and if we want to become a superpower economy that's why we made this amazing project named India Aura.
+India is a beautiful country. The diversity in this country is incredible. Even then, many smaller countries attract more foreign tourists than India. But why? Why can't we bring people to show them our amazing country? The answer could be simple, BRANDING.
+India is the most beautiful country in the world ,the Himalayan mountains beaches of Kerala the desert of Rajasthan. what doesn't India have??  just one thing tourist.
+Dubai is a City but 16.9 million tourists come to Dubai every year but in India as a country have  only 10 million that's it. 
+and this impacts our hotels and our businesses and our economy. The country is ours and if we want to become a superpower we need to grow our economy.
+That’s why I present you this amazing project named India Aura.
+
 ![WhatsApp Image 2023-08-28 at 20 25 35](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/3ec6ccaf-139e-44c1-837f-8dac5c427aa7)
 
 
@@ -114,16 +118,19 @@ India is the most beautiful country in the world the Himalayan mountains peaches
 ## 🙌 Functionalities
 
 - In the landing page user can see the stats and interect with some features
-- User can navigate to other pages like- **About**,**Donation**,**Contact**,**Signin**,**Signup**
-- After clicking **Sign up** button user will redirect to sign up page and user have to create one account
-- After creating account users have to verify their mail and login to the website
-- Then user can raise for fund. There will be some field after filling all field user have to submit the form.
-- After submitting user will be redirect to the **donation** page and they can see the card of them
-- If anyone want to donate, they just have to select the amount and then click the **Donate** button
-- After clicking, one pop up for payment will be shown and proceed.
-- Then user can see a progress bar which notify how much amount is raised.
-- Donor can also see details about the applicants the just have to click the card.
-- User can log out after their requirement fullfilled
+- User can navigate to other pages like- **Home**,**Dream Tour**,**Profile**,**Blog**,**About Us**,**Register**,**Login**
+- After **Register** button user will redirect to login page and user have to login to use all features
+- After creating account and login users navigate to profile section here user can able to write blog and book **Hotels, flights and tourpackages**
+- Then user can requested to go Home page then go to Dream Tour page.
+- In dream tour page User need to scroll down and user find 4 section **Incredible India**,**Cultural**,**Wildlife** and **Vacation**
+- In **Incredible India** page user can find 30 days and 50 days Whole India tour plan.
+- In **Cultural** page user can find all cultural tourism of India like **Char Dham Yatra**,**Amarnath**,**Shri Jagannath Temple Puri**,**Taj Mahal** etc with proper tour plan.
+- In **Wildlife** page user can find all wildlife tourism of India like **Sundarbans**,**Jim Corbett National Park**,**Kaziranga National Park**,**Jaldapara National Park** etc with proper tour plan.
+- In **Vacation** page user can find all vacation tourism of India like **Beaches**,**Mountains**,**Historical Places**,**Outdoor-Attractions** etc with proper tour plan.
+- In all **Vacation** pages user can find all beaches mountains etc with proper tour plan.
+- Now come to **Blog** page Here user get a indian cultural map if user over the map user found Blogs about that region of India user is requested to click on any region to read Blog about that region.
+- In Whole App user found a **Chat Bot** named **Tourism Helper** if user give any city or region name of India the Chat Bot gives all tourist places and special things about that city or region.
+- Now after giving a feedback user can log out.
 ## ⏭Roadmap
 - [x] landing page
 - [x] Website Stats
