@@ -26,7 +26,7 @@
   width: 350px;
   height: 530px;
   display: flex;
-  background-color:white;
+  background-color:rgba(255, 255, 255, 0.557);
   border-radius: 10px;
   transition: all .2s;
   flex-wrap: wrap;
@@ -75,7 +75,7 @@
 }
 
 .spot-content .btn {
-  color: #fff;
+  color: #ffffff94;
   text-decoration: none;
   margin-top: 20px;
   padding: 10px;
@@ -126,4 +126,34 @@
   .spot-heading {
     font-size: 25px;
   }
+}
+.scroll{
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(255, 191, 0);
+}
+.scroll span{
+  color: rgb(12, 184, 23);
+}
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  50% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0);
+}
+}
+
+.scroll {
+  display: inline-block;
+  animation: fadeIn 3s ease-in-out infinite ;
 }

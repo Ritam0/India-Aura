@@ -64,6 +64,10 @@ const TourismPage = () => {
                 </NavLink>
               </div>
               </div>
+              <div className="scroll">
+                Scroll Down For <span>Your Dream Tour</span> 
+              </div>
+
             </div>
           ))}
           </div>
