@@ -181,7 +181,7 @@
     padding-right: 7px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border: 2px solid rgb(191, 27, 27);
+    /* border: 2px solid rgb(191, 27, 27); */
     font-weight: 800;
     color: rgba(0, 0, 0, 0);
   }
