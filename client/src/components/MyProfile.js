@@ -62,8 +62,8 @@ const MyProfile = () => {
   const Feedback = () => {
     navigate("/Feedback");
   }
-  const BlogUpload=()=>{
-    navigate("/uploadblog");
+  const ReadBlogs=()=>{
+    navigate("/public/blog");
   }
 
   return (
@@ -99,8 +99,9 @@ const MyProfile = () => {
               <button className="myproflie_button" onClick={Feedback}>
                 <p className="text">Give Feedback</p>
               </button>
-              {/* <NavLink className='mypfeedback_btn' to="/Feedback">
-              <button className='myproflie_button'>Give Feedback</button></NavLink> */}
+              <button className="myproflie_button" onClick={ReadBlogs}>
+                <p className="text">Public Blogs</p>
+              </button>
             </div>
           </div>
         </div>

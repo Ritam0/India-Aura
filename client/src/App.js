@@ -18,6 +18,7 @@ import Kerala from './components/Kerala';
 import Durga_puja from './components/Durga_puja';
 import Kashmir from './components/Kashmir';
 import TourismPage from './components/Dream_tour';
+import PublicBlog from './components/PublicBlog';
 
 const App = () => {
   return (
@@ -41,6 +42,7 @@ const App = () => {
           <Route path="/blog/kerala" element={<Kerala/>} className="tajmahal" />
           <Route path="/blog/durgapuja" element={<Durga_puja/>} className="tajmahal" />
           <Route path="/blog/kashmir" element={<Kashmir/>} className="tajmahal" />
+          <Route path="/public/blog" element={<PublicBlog/>} className="publicblog" />
         </Routes>
     </>
   );
