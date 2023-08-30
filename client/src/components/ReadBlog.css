@@ -21,6 +21,8 @@
     text-align: left;
     transition: transform 0.2s, box-shadow 0.2s, border-color 0.3s;
     position: relative;
+    background: linear-gradient(60deg, #ffc164 0%, #ffffff 50%, #6eff0d 100%)
+
   }
   
   .blog-card:hover {

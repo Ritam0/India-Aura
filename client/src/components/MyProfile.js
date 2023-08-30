@@ -70,7 +70,7 @@ const MyProfile = () => {
     <>
       <Navbar />
       <div className='myproflie_main_body'>
-        <h1>Wellcome to India Aura</h1>
+        <h1>Welcome to India Aura</h1>
         <div className="myprofile_main_card">
           <div className="myprofile_pic_card">
             <img src={uri} alt="user_pic" className="image" />
