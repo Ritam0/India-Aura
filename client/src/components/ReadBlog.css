@@ -173,6 +173,25 @@
     color: rgb(255, 255, 255);
     border-radius: 10px;
   }
+  .point5{
+    position: absolute;
+    left: 200px;
+    top: 210px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid rgb(191, 27, 27);
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0);
+  }
+  .point5:hover span{
+    cursor: pointer;
+
+    background-color: rgb(14, 133, 245);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
   .inner-pointer:hover{
     background-color: rgb(14, 133, 245);
     color: rgb(255, 255, 255);

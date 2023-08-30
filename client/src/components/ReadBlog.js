@@ -47,6 +47,7 @@ const ReadBlog = () => {
       <a href="https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703" target='_blank'><div className="point2"><span className='inner-pointer' >Durga Puja</span></div></a>
       <a href="https://sandeepachetan.com/category/kashmir/" target='_blank'><div className="point3"><span className='inner-pointer'>Kashmir</span></div></a>
       <a href="/https://keralablogexpress.com/" target="_blank"><div className="point4"><span className='inner-pointer'>Kerala</span></div></a>
+      <a href=""><div className="point5"><span className="inner-pointer">India <br />Gate</span></div></a>
 
       <div className="diver">
         Diversity <span className="d1">of</span> <span className="d2">India</span>
