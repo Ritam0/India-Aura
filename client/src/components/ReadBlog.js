@@ -52,7 +52,7 @@ const ReadBlog = () => {
       <a href="https://www.nestadventure.com/blog/category/kanchenjunga-trek-blog/"  target="_blank"><div className="point9"><span className="inner-pointer">kanchanjunga</span></div></a>
 
       <div className="diver">
-        Diversity <span className="d1">of</span> <span className="d2">India</span>
+        Unity <span className="d1">in</span> <span className="d2">Diversity</span>
       </div>
       <div className="hov">
        Hover Map<span className="d1"> to Know</span> <span className="d2">Diversity</span>
