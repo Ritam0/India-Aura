@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './ReadBlog.css';
 import Navbar from './Navbar';
-import tour_home from "./image/home_tour.png"
+import tour_home from "./image/blog_india.png"
 import pointer from "./image/map-pointer.png"
 import { FcUpLeft } from "react-icons/fc";
 

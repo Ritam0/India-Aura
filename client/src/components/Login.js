@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Navbar from './Navbar';
 import './Registration.css';
-import log_reg_page_pic from "./image/log_reg_page_pic.jpg";
 
 function LoginForm () {
   const navigate = useNavigate();

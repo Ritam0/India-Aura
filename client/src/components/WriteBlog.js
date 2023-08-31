@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Navbar from './Navbar';
 import './Registration.css';
-import log_reg_page_pic from "./image/log_reg_page_pic.jpg";
 import { useNavigate } from 'react-router-dom';
 
 const WriteBlog = ({type}) => {
