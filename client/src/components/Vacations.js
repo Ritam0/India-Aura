@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import { NavLink } from 'react-router-dom';
-import Modal from 'react-modal';
 import './vacations.css'; // Make sure to create a CSS file for styling
 
 const tourismSpots = [
@@ -39,7 +38,7 @@ const Vacation_page = () => {
     <>
       <Navbar />
       <div className="Vacation-page-container">
-        <h1>Incredible India</h1>
+        <h1>Vacation Destination</h1>
           <div className="Vacation_cardDisplay">
           {tourismSpots.map((spot) => (
             <div key={spot.id} class="Vacation_card">

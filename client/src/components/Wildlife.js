@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
-import { NavLink } from 'react-router-dom';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import './Wildlife.css'; // Make sure to create a CSS file for styling
@@ -103,7 +102,7 @@ const Wildlife = () => {
     <>
       <Navbar />
       <div className="Wildlife-page-container">
-        <h1>Incredible India</h1>
+        <h1>Wildlife Destination</h1>
           <div className="WildlifeDisplay">
           {tourismSpots.map((spot) => (
             <div key={spot.id} class="Wildlife">

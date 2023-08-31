@@ -50,7 +50,7 @@ const TourismPage = () => {
             Your browser does not support the video tag.
           </video>
         </div>
-        <h1>Incredible India</h1>
+        <h1>Dream Tour</h1>
           <div className="cardDisplay">
           {tourismSpots.map((spot) => (
             <div key={spot.id} class="card">

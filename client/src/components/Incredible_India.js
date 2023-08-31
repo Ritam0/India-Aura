@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
-import { NavLink } from 'react-router-dom';
 import './Incredible_India.css';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';

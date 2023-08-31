@@ -1,11 +1,9 @@
 // ReadBlog.js
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import './ReadBlog.css';
 import Navbar from './Navbar';
 import tour_home from "./image/blog_india.png"
-import pointer from "./image/map-pointer.png"
-import { FcUpLeft } from "react-icons/fc";
+
 
 const ReadBlog = () => {
   // const [allblogs, setAllBlogs] = useState([]);
@@ -46,8 +44,12 @@ const ReadBlog = () => {
       <a href="https://medium.com/@seovueindia19/visiting-taj-mahal-the-story-of-love-best-taj-mahal-travel-blog-with-inside-information-ca14ff3cc1b4" target="_blank"><div className="point1"><span className='inner-pointer'>Taj Mahal</span></div></a>
       <a href="https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703" target='_blank'><div className="point2"><span className='inner-pointer' >Durga Puja</span></div></a>
       <a href="https://sandeepachetan.com/category/kashmir/" target='_blank'><div className="point3"><span className='inner-pointer'>Kashmir</span></div></a>
-      <a href="/https://keralablogexpress.com/" target="_blank"><div className="point4"><span className='inner-pointer'>Kerala</span></div></a>
-      <a href=""><div className="point5"><span className="inner-pointer">India <br />Gate</span></div></a>
+      <a href="/https://keralablogexpress.com/" target="_blank"><div className="point4"><span className='inner-pointer'>kathakali of<br />Kerala</span></div></a>
+      <a href="https://www.indiatravelblog.com/destinations/118-india-gate"  target="_blank"><div className="point5"><span className="inner-pointer">India <br />Gate</span></div></a>
+      <a href="https://www.veenaworld.com/blog/gateway-of-india-mumbai-history-and-heritage"  target="_blank"><div className="point6"><span className="inner-pointer">Gateway of <br />India</span></div></a>
+      <a href="https://samaaratea.com/blogs/blog/the-chai-files-story-of-assam-tea"  target="_blank"><div className="point7"><span className="inner-pointer">Chai of <br />Assam</span></div></a>
+      <a href="https://cultureandheritage.org/2023/06/bhangda-a-joyous-fun-filled-folk-dance-of-punjab.html"  target="_blank"><div className="point8"><span className="inner-pointer">Bhangra of<br />punjab</span></div></a>
+      <a href="https://www.nestadventure.com/blog/category/kanchenjunga-trek-blog/"  target="_blank"><div className="point9"><span className="inner-pointer">kanchanjunga</span></div></a>
 
       <div className="diver">
         Diversity <span className="d1">of</span> <span className="d2">India</span>

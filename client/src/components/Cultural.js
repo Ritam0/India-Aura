@@ -116,7 +116,7 @@ const Cultural_page = () => {
     <>
       <Navbar />
       <div className="Cultural-page-container">
-        <h1>Incredible India</h1>
+        <h1>Cultural Destination</h1>
         <div className="CulturalDisplay">
           {tourismSpots.map((spot) => (
             <div key={spot.id} className="Cultural">

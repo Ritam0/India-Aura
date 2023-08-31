@@ -195,6 +195,82 @@
     color: rgb(255, 255, 255);
     border-radius: 10px;
   }
+  .point6{
+    position: absolute;
+    left: 110px;
+    top: 420px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*border: 2px solid rgb(191, 27, 27);*/
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0);
+  }
+  .point6:hover span{
+    cursor: pointer;
+
+    background-color: rgb(14, 133, 245);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  .point7{
+    position: absolute;
+    left: 440px;
+    top: 280px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*border: 2px solid rgb(191, 27, 27);*/
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0);
+  }
+  .point7:hover span{
+    cursor: pointer;
+
+    background-color: rgb(14, 133, 245);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  .point8{
+    position: absolute;
+    left: 130px;
+    top: 220px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*border: 2px solid rgb(191, 27, 27);*/
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0);
+  }
+  .point8:hover span{
+    cursor: pointer;
+
+    background-color: rgb(14, 133, 245);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  .point9{
+    position: absolute;
+    left: 360px;
+    top: 280px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*border: 2px solid rgb(191, 27, 27);*/
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0);
+  }
+  .point9:hover span{
+    cursor: pointer;
+
+    background-color: rgb(14, 133, 245);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
   .inner-pointer:hover{
     background-color: rgb(14, 133, 245);
     color: rgb(255, 255, 255);

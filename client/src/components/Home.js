@@ -1,11 +1,27 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import Navbar from './Navbar';
 import './Home.css';
 import tour_home from "./image/home_tour.png";
 
 const Home = () => {
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setIsLoading(false);
+        }, 1000); 
+    }, []);
+
     return (
+        <div>
+        {isLoading ? (
+            <div className="preloader-container">
+                <div className="preloader">
+                    <div className="preloader-ring"></div>
+                </div>
+            </div>
+        ) : (
         <div>
             <Navbar />
 
@@ -30,11 +46,9 @@ const Home = () => {
                 </section>
             </main>
 
-
-            {/* <Services /> */}
-            {/* <Footer /> */}
-
-        </div>
+            </div>
+      )}
+    </div>
     );
 }
 
