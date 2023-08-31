@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import { NavLink } from 'react-router-dom';
-import './Incredible_India.css'; // Make sure to create a CSS file for styling
+import './Incredible_India.css';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
@@ -14,12 +14,17 @@ function MyVerticallyCenteredModal(props) {
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Header closeButton>
+      <Modal.Header >
         <Modal.Title id="contained-modal-title-vcenter">
           Your Tour Our Responsibility
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
+        <img
+          src={props.imageUrl}
+          alt="Image Alt Text"
+          className="modal-image"
+        />
         <h4>{spot.name} Tour Details:</h4>
         <p>{spot.details}</p>
       </Modal.Body>
@@ -39,57 +44,56 @@ const tourismSpots = [
     imageUrl: 'https://i.pinimg.com/564x/83/64/40/836440f5a61124dc869d8a90c868ddf7.jpg',
     details: (
       <>
-          Incredible India Tour: 
-          ·	Day 1: Arrive New Delhi
-          ·	Day 2: New Delhi sightseeing and drive to Dharmshala
-          ·	Day 3: Arrive Dharamshala and sight seeing
-          ·	Day 4: Early morning drive to Amritsar and visit Jalianwala Bagh
-          ·	Day 5: Morning visit Golden Temple and Drive to Srinagar
-          ·	Day 6: Srinagar
-          ·	Day 7: Drive to Leh via Kargil
-          ·	Day 8: Leh (visit monasteries)
-          ·	Day 9: Leh (drive to Pangong Lake)
-          ·	Day 10: Flight to New Delhi and drive to Ranthambore afternoon safari and thereafter to Jaipur
-          ·	Day 11: Jaipur (sightseeing)
-          ·	Day 12: Jaipur to Jaisalmer overnight train
-          ·	Day 13: Jaisalmer(sightseeing)
-          ·	Day 14: Early morning SAM Dunes and drive to Udaipur
-          ·	Day 15: Udaipur (sightseeing)
-          ·	Day 16: Early morning drive to Kutch (overnight camp)
-          ·	Day 17: Kutch (stay)
-          ·	Day 18: Kutch to Junagadh
-          ·	Day 19: Gir National Park morning safari and then drive to Rajkot to board the train for Mumbai
-          ·	Day 20: Mumbai Arrival (Rest Day)
-          ·	Day 21: Mumbai to Ajanta – ellora and stay at Aurangabad
-          ·	Day 22: Aurangabad to Goa flight
-          ·	Day 23: Goa
-          ·	Day 24: Goa
-          ·	Day 25: Goa to Munnar Drive
-          ·	Day 26: Munnar (sightseeing)
-          ·	Day 27: Munnar to Alleppey (Drive)
-          ·	Day 28: Alleppey (backwater tour)
-          ·	Day 29: Alleppey to Mahabalipuram Drive
-          ·	Day 30: Mahabalipuram to Tirupati (stay)
-          ·	Day 31: Tirupati to Bangalore Drive
-          ·	Day 32: Bangalore (Rest Day)
-          ·	Day 33: Bangalore to Hampi via Hospet (stay)
-          ·	Day 34: Hospet to Badami and drive to Bangalore
-          ·	Day 35: Bangalore to Bhubaneshwar flight and thereafter drive to Puri
-          ·	Day 36: Puri – Konark – Puri
-          ·	Day 37: Puri – Bhubaneshwar – Board the train for Kolkata
-          ·	Day 38: Kolkata (stay)
-          ·	Day 39: Kolkata to Shillong flight
-          ·	Day 40: Shillong (sightseeing)
-          ·	Day 41: Shillong to Gangtok (Drive 12 hours)
-          ·	Day 42: Gangtok (local sightseeing)
-          ·	Day 43: Gangtok (drive to Nathu La and Changu Lake)
-          ·	Day 44: Gangtok to NJP and board the train for Varanasi
-          ·	Day 45: Varanasi (sightseeing)
-          ·	Day 46: Varanasi to Khajuraho (Drive) and sightseeing
-          ·	Day 47: Khajuraho sightseeing and thereafter drive to Agra
-          ·	Day 48: Agra (sightseeing)
-          ·	Day 49: Agra to New Delhi Drive
-          ·	Day 50: New Delhi (Departure – Evening)
+          Day 1: Arrive New Delhi<br />
+          Day 2: New Delhi sightseeing and drive to Dharmshala<br />
+          Day 3: Arrive Dharamshala and sight seeing<br />
+          Day 4: Early morning drive to Amritsar and visit Jalianwala Bagh<br />
+          Day 5: Morning visit Golden Temple and Drive to Srinagar<br />
+          Day 6: Srinagar<br />
+          Day 7: Drive to Leh via Kargil<br />
+          Day 8: Leh (visit monasteries)<br />
+          Day 9: Leh (drive to Pangong Lake)<br />
+          Day 10: Flight to New Delhi and drive to Ranthambore afternoon safari and thereafter to Jaipur<br />
+          Day 11: Jaipur (sightseeing)<br />
+          Day 12: Jaipur to Jaisalmer overnight train<br />
+          Day 13: Jaisalmer(sightseeing)<br />
+          Day 14: Early morning SAM Dunes and drive to Udaipur<br />
+          Day 15: Udaipur (sightseeing)<br />
+          Day 16: Early morning drive to Kutch (overnight camp)<br />
+          Day 17: Kutch (stay)<br />
+          Day 18: Kutch to Junagadh<br />
+          Day 19: Gir National Park morning safari and then drive to Rajkot to board the train for Mumbai<br />
+          Day 20: Mumbai Arrival (Rest Day)<br />
+          Day 21: Mumbai to Ajanta – ellora and stay at Aurangabad<br />
+          Day 22: Aurangabad to Goa flight<br />
+          Day 23: Goa<br />
+          Day 24: Goa<br />
+          Day 25: Goa to Munnar Drive<br />
+          Day 26: Munnar (sightseeing)<br />
+          Day 27: Munnar to Alleppey (Drive)<br />
+          Day 28: Alleppey (backwater tour<br />
+          Day 29: Alleppey to Mahabalipuram Drive<br />
+          Day 30: Mahabalipuram to Tirupati (stay)<br />
+          Day 31: Tirupati to Bangalore Drive<br />
+          Day 32: Bangalore (Rest Day)<br />
+          Day 33: Bangalore to Hampi via Hospet (stay)<br />
+          Day 34: Hospet to Badami and drive to Bangalore<br />
+          Day 35: Bangalore to Bhubaneshwar flight and thereafter drive to Puri<br />
+          Day 36: Puri – Konark – Puri<br />
+          Day 37: Puri – Bhubaneshwar – Board the train for Kolkata<br />
+          Day 38: Kolkata (stay)<br />
+          Day 39: Kolkata to Shillong flight<br />
+          Day 40: Shillong (sightseeing)<br />
+          Day 41: Shillong to Gangtok (Drive 12 hours)<br />
+          Day 42: Gangtok (local sightseeing)<br />
+          Day 43: Gangtok (drive to Nathu La and Changu Lake)<br />
+          Day 44: Gangtok to NJP and board the train for Varanasi<br />
+          Day 45: Varanasi (sightseeing)<br />
+          Day 46: Varanasi to Khajuraho (Drive) and sightseeing<br />
+          Day 47: Khajuraho sightseeing and thereafter drive to Agra<br />
+          Day 48: Agra (sightseeing)<br />
+          Day 49: Agra to New Delhi Drive<br />
+          Day 50: New Delhi (Departure – Evening)<br />
 
       
       </>

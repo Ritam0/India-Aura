@@ -15,12 +15,17 @@ function MyVerticallyCenteredModal(props) {
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Header closeButton>
+      <Modal.Header >
         <Modal.Title id="contained-modal-title-vcenter">
           Wildlife Adventure: {wildlifeSpot.name}
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
+        <img
+          src={props.imageUrl}
+          alt="Image Alt Text"
+          className="modal-image"
+        />
         <h4>Tour Details:</h4>
         <p>{wildlifeSpot.details}</p>
       </Modal.Body>
