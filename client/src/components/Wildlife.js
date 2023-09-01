@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
-import { NavLink } from 'react-router-dom';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import './Wildlife.css'; // Make sure to create a CSS file for styling
@@ -15,12 +14,17 @@ function MyVerticallyCenteredModal(props) {
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Header closeButton>
+      <Modal.Header >
         <Modal.Title id="contained-modal-title-vcenter">
           Wildlife Adventure: {wildlifeSpot.name}
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
+        <img
+          src={props.imageUrl}
+          alt="Image Alt Text"
+          className="modal-image"
+        />
         <h4>Tour Details:</h4>
         <p>{wildlifeSpot.details}</p>
       </Modal.Body>
@@ -98,7 +102,7 @@ const Wildlife = () => {
     <>
       <Navbar />
       <div className="Wildlife-page-container">
-        <h1>Incredible India</h1>
+        <h1>Wildlife Destination</h1>
           <div className="WildlifeDisplay">
           {tourismSpots.map((spot) => (
             <div key={spot.id} class="Wildlife">
