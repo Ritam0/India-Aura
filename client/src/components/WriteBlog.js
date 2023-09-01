@@ -30,7 +30,7 @@ const WriteBlog = ({type}) => {
 
 
     try {
-      const response = await axios.post('http://localhost:3001/upload-blog', FormToServer);
+      const response = await axios.post('https://india-aura.onrender.com/upload-blog', FormToServer);
 
       setName('');
       setPlace('');
@@ -40,8 +40,8 @@ const WriteBlog = ({type}) => {
       window.alert('Registration Succesful !!');
       navigate('/login');
     } catch (error) {
-      window.alert('registration failed!! try again')
-      console.error('Registration error:', error);
+      window.alert('Blog upload failed!! try again')
+      console.error('Blog upload faild:', error);
     }
   };
 
