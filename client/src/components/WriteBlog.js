@@ -10,7 +10,7 @@ const WriteBlog = ({type}) => {
   const [place, setPlace] = useState('');
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
-  const [thumbnail, setThumbnail] = useState('https://i.pinimg.com/564x/0b/59/22/0b5922b901383400d62cb2fc33a658f1.jpg');
+  const [thumbnail, setThumbnail] = useState('https://i.pinimg.com/564x/0e/ec/29/0eec29fc8d53ad5a35fdf3d7cceacd4f.jpg');
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -37,8 +37,7 @@ const WriteBlog = ({type}) => {
       setTitle('');
       setContent('');
       setThumbnail('');
-      window.alert('Registration Succesful !!');
-      navigate('/login');
+      window.alert('Blog Upload Succesful !!');
     } catch (error) {
       window.alert('Blog upload failed!! try again')
       console.error('Blog upload faild:', error);

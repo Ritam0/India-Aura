@@ -17,7 +17,7 @@ import cloudinary from 'cloudinary';
             content,
             thumbnail:{
                 public_id:name,
-                secure_url:'https://i.pinimg.com/564x/0b/59/22/0b5922b901383400d62cb2fc33a658f1.jpg'
+                secure_url:'https://i.pinimg.com/564x/0e/ec/29/0eec29fc8d53ad5a35fdf3d7cceacd4f.jpg'
             }
         });
         console.log('4');
