@@ -44,7 +44,7 @@ const ReadBlog = () => {
       <a href="https://medium.com/@seovueindia19/visiting-taj-mahal-the-story-of-love-best-taj-mahal-travel-blog-with-inside-information-ca14ff3cc1b4" target="_blank"><div className="point1"><span className='inner-pointer'>Taj Mahal</span></div></a>
       <a href="https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703" target='_blank'><div className="point2"><span className='inner-pointer' >Durga Puja</span></div></a>
       <a href="https://sandeepachetan.com/category/kashmir/" target='_blank'><div className="point3"><span className='inner-pointer'>Kashmir</span></div></a>
-      <a href="/https://keralablogexpress.com/" target="_blank"><div className="point4"><span className='inner-pointer'>kathakali of<br />Kerala</span></div></a>
+      <a href="https://www.andreamarchegiani.it/travel-blog/en-india/kathakali-dance-kerala/" target="_blank"><div className="point4"><span className='inner-pointer'>kathakali of<br />Kerala</span></div></a>
       <a href="https://www.indiatravelblog.com/destinations/118-india-gate"  target="_blank"><div className="point5"><span className="inner-pointer">India <br />Gate</span></div></a>
       <a href="https://www.veenaworld.com/blog/gateway-of-india-mumbai-history-and-heritage"  target="_blank"><div className="point6"><span className="inner-pointer">Gateway of <br />India</span></div></a>
       <a href="https://samaaratea.com/blogs/blog/the-chai-files-story-of-assam-tea"  target="_blank"><div className="point7"><span className="inner-pointer">Chai of <br />Assam</span></div></a>
