@@ -133,8 +133,6 @@ const logout=(req,res)=>{
     }
 };
 
-
-
 // ..............................profile...........................//
 const profile=async (req,res)=>{
     try{
