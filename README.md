@@ -34,7 +34,7 @@
 ## 🎞️Demo
 
 [<video src="https://www.youtube.com/watch?v=P2Ix2aOvCOM">
-</video>](https://github.com/BIBHAB22/Inter-hacktive/assets/113331341/cb377366-ba93-4bea-98cf-b244fb1aa15b
+</video>](https://github.com/BIBHAB22
 )
 
 ## 🚀Screenshots
